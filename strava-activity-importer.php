@@ -42,6 +42,20 @@ class Strava_Activity_Importer {
 
         // OAuth callback
         add_action( 'admin_init', array( $this, 'handle_oauth_callback' ) );
+
+        // Return external URL for Strava image attachments
+        add_filter( 'wp_get_attachment_url', array( $this, 'filter_external_attachment_url' ), 10, 2 );
+    }
+
+    /**
+     * Filter attachment URL to return external Strava URL when applicable.
+     */
+    public function filter_external_attachment_url( $url, $attachment_id ) {
+        $external_url = get_post_meta( $attachment_id, '_strava_external_url', true );
+        if ( ! empty( $external_url ) ) {
+            return $external_url;
+        }
+        return $url;
     }
 
     /**
@@ -343,7 +357,8 @@ class Strava_Activity_Importer {
         $photos = array();
         if ( ! empty( $activity['total_photo_count'] ) && $activity['total_photo_count'] > 0 ) {
             $photos_response = $this->strava_api_get( 'activities/' . $activity_id . '/photos', array(
-                'size' => 2048,
+                'size'          => 2048,
+                'photo_sources' => 'true',
             ) );
             if ( ! is_wp_error( $photos_response ) && is_array( $photos_response ) ) {
                 $photos = $photos_response;
@@ -427,22 +442,11 @@ class Strava_Activity_Importer {
             update_post_meta( $post_id, '_strava_polyline', $activity['map']['summary_polyline'] );
         }
 
-        // Download all photos to WordPress media library
+        // Set featured image from first photo using external URL
         if ( ! empty( $photos ) ) {
-            $local_photos = $this->download_all_photos( $photos, $post_id, $activity['name'] );
-
-            // Set first photo as featured image
-            if ( ! empty( $local_photos[0]['attachment_id'] ) ) {
-                set_post_thumbnail( $post_id, $local_photos[0]['attachment_id'] );
-            }
-
-            // Rebuild post content with local image URLs and update the post
-            if ( ! empty( $local_photos ) ) {
-                $content = $this->build_post_content( $activity, $photos, $local_photos );
-                wp_update_post( array(
-                    'ID'           => $post_id,
-                    'post_content' => $content,
-                ) );
+            $featured_url = $this->get_photo_url( $photos[0] );
+            if ( ! empty( $featured_url ) ) {
+                $this->set_external_featured_image( $post_id, $featured_url, $activity['name'] );
             }
         }
 
@@ -460,72 +464,43 @@ class Strava_Activity_Importer {
     private function get_photo_url( $photo ) {
         if ( ! empty( $photo['urls'] ) && is_array( $photo['urls'] ) ) {
             $urls = $photo['urls'];
-            krsort( $urls );
+            krsort( $urls, SORT_NUMERIC );
             return reset( $urls );
+        }
+        // Fallback: some Strava responses use a flat URL field
+        if ( ! empty( $photo['url'] ) ) {
+            return $photo['url'];
         }
         return '';
     }
 
     /**
-     * Download a photo from Strava and upload it to the WordPress media library.
-     * Returns the attachment ID on success, or 0 on failure.
+     * Create a WordPress attachment from an external URL and set it as featured image.
      */
-    private function download_photo( $image_url, $post_id, $title = '' ) {
-        if ( empty( $image_url ) ) {
-            return 0;
+    private function set_external_featured_image( $post_id, $image_url, $title ) {
+        $attachment_id = wp_insert_attachment( array(
+            'post_title'     => sanitize_text_field( $title ),
+            'post_content'   => '',
+            'post_status'    => 'inherit',
+            'post_mime_type' => 'image/jpeg',
+            'guid'           => esc_url_raw( $image_url ),
+        ), false, $post_id );
+
+        if ( ! $attachment_id || is_wp_error( $attachment_id ) ) {
+            return;
         }
 
-        require_once ABSPATH . 'wp-admin/includes/media.php';
-        require_once ABSPATH . 'wp-admin/includes/file.php';
-        require_once ABSPATH . 'wp-admin/includes/image.php';
+        // Store external URL in custom meta — our filter_external_attachment_url
+        // hook returns this instead of letting WordPress prepend the uploads dir.
+        update_post_meta( $attachment_id, '_strava_external_url', esc_url_raw( $image_url ) );
 
-        $tmp = download_url( $image_url );
-        if ( is_wp_error( $tmp ) ) {
-            return 0;
-        }
-
-        $file_array = array(
-            'name'     => sanitize_file_name( 'strava-' . $post_id . '-' . time() . '-' . wp_rand() . '.jpg' ),
-            'tmp_name' => $tmp,
-        );
-
-        $attachment_id = media_handle_sideload( $file_array, $post_id, sanitize_text_field( $title ) );
-
-        if ( is_wp_error( $attachment_id ) ) {
-            @unlink( $tmp );
-            return 0;
-        }
-
-        return $attachment_id;
-    }
-
-    /**
-     * Download all photos from Strava and return an array of local attachment data.
-     * Each element contains 'attachment_id' and 'url'.
-     */
-    private function download_all_photos( $photos, $post_id, $activity_name ) {
-        $local_photos = array();
-
-        foreach ( $photos as $index => $photo ) {
-            $image_url = $this->get_photo_url( $photo );
-            $title     = $activity_name . ( $index > 0 ? ' - Photo ' . ( $index + 1 ) : '' );
-
-            $attachment_id = $this->download_photo( $image_url, $post_id, $title );
-            if ( $attachment_id ) {
-                $local_photos[] = array(
-                    'attachment_id' => $attachment_id,
-                    'url'           => wp_get_attachment_url( $attachment_id ),
-                );
-            }
-        }
-
-        return $local_photos;
+        set_post_thumbnail( $post_id, $attachment_id );
     }
 
     /**
      * Build the HTML post content from activity data and photos
      */
-    private function build_post_content( $activity, $photos = array(), $local_photos = array() ) {
+    private function build_post_content( $activity, $photos = array() ) {
         $blocks = array();
 
         // Description
@@ -624,8 +599,8 @@ class Strava_Activity_Importer {
         $blocks[] = '<!-- /wp:group -->';
         $blocks[] = '';
 
-        // Photos gallery (skip first since it's the featured image)
-        if ( count( $photos ) > 1 ) {
+        // Photos gallery (all photos)
+        if ( ! empty( $photos ) ) {
             $blocks[] = '<!-- wp:heading {"level":3} -->';
             $blocks[] = '<h3>📸 Photos</h3>';
             $blocks[] = '<!-- /wp:heading -->';
@@ -633,12 +608,8 @@ class Strava_Activity_Importer {
             $blocks[] = '<!-- wp:gallery {"columns":2,"linkTo":"none","className":"strava-photos"} -->';
             $blocks[] = '<figure class="wp-block-gallery has-nested-images columns-2 strava-photos">';
 
-            foreach ( array_slice( $photos, 1 ) as $photo ) {
-                $url = '';
-                if ( ! empty( $photo['urls'] ) && is_array( $photo['urls'] ) ) {
-                    krsort( $photo['urls'] );
-                    $url = reset( $photo['urls'] );
-                }
+            foreach ( $photos as $photo ) {
+                $url = $this->get_photo_url( $photo );
                 if ( ! empty( $url ) ) {
                     $blocks[] = '<!-- wp:image -->';
                     $blocks[] = '<figure class="wp-block-image"><img src="' . esc_url( $url ) . '" alt="Activity photo"/></figure>';
