@@ -1,0 +1,379 @@
+/* ============================================
+   Strava Activity Importer - Admin Styles
+   ============================================ */
+
+:root {
+    --strava-orange: #FC4C02;
+    --strava-orange-dark: #e04400;
+    --strava-dark: #242428;
+    --strava-gray: #6d6d78;
+    --strava-light: #f7f7fa;
+    --strava-border: #e1e1e6;
+    --strava-green: #2ecc71;
+    --strava-blue: #3498db;
+    --strava-red: #e74c3c;
+}
+
+/* Header */
+.strava-header {
+    background: linear-gradient(135deg, var(--strava-dark) 0%, #3a3a42 100%);
+    margin: -10px -20px 24px -20px;
+    padding: 24px 30px;
+    border-bottom: 3px solid var(--strava-orange);
+}
+
+.strava-header-inner {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.strava-header h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.strava-logo {
+    flex-shrink: 0;
+}
+
+/* Cards */
+.strava-card {
+    background: #fff;
+    border: 1px solid var(--strava-border);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.strava-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--strava-border);
+    cursor: pointer;
+    user-select: none;
+}
+
+.strava-card-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--strava-dark);
+}
+
+.toggle-indicator {
+    font-size: 12px;
+    color: var(--strava-gray);
+    transition: transform 0.2s;
+}
+
+.toggle-indicator.collapsed {
+    transform: rotate(-90deg);
+}
+
+.strava-card-body {
+    padding: 20px;
+}
+
+/* Notices */
+.strava-notice {
+    padding: 14px 18px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.strava-notice.info {
+    background: #f0f6ff;
+    border: 1px solid #c3d9f7;
+    color: #1a4a7a;
+}
+
+.strava-notice.warning {
+    background: #fff8e6;
+    border: 1px solid #f0d58e;
+    color: #7a5c1a;
+}
+
+.strava-notice.success {
+    background: #eafaf1;
+    border: 1px solid #a3d9b1;
+    color: #1a6b3a;
+}
+
+.strava-notice ol {
+    margin: 8px 0 0 20px;
+    padding: 0;
+}
+
+.strava-notice li {
+    margin-bottom: 4px;
+}
+
+/* Form tweaks */
+.strava-card .form-table th {
+    padding-left: 0;
+    width: 180px;
+}
+
+.strava-card .form-table td {
+    padding-left: 0;
+}
+
+/* Connect button */
+.strava-connect-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--strava-orange);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.strava-connect-btn:hover {
+    background: var(--strava-orange-dark);
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.strava-connect-btn:active {
+    transform: translateY(0);
+}
+
+/* Athlete Info */
+.strava-athlete-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 0;
+}
+
+.strava-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid var(--strava-border);
+    object-fit: cover;
+}
+
+.strava-athlete-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-grow: 1;
+}
+
+.strava-athlete-details strong {
+    font-size: 16px;
+    color: var(--strava-dark);
+}
+
+.strava-location {
+    color: var(--strava-gray);
+    font-size: 13px;
+}
+
+.strava-connected-badge {
+    color: var(--strava-green);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Toolbar */
+.strava-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.strava-toolbar .spinner {
+    float: none;
+    margin: 0;
+}
+
+.strava-toolbar .spinner.is-active {
+    visibility: visible;
+}
+
+/* Activities Table */
+#strava-activities-table {
+    border-collapse: collapse;
+}
+
+#strava-activities-table th,
+#strava-activities-table td {
+    padding: 10px 12px;
+    vertical-align: middle;
+}
+
+#strava-activities-table .check-column {
+    width: 40px;
+    padding: 10px;
+}
+
+#strava-activities-table .check-column input {
+    margin: 0;
+}
+
+.strava-activity-name {
+    font-weight: 600;
+    color: var(--strava-dark);
+}
+
+.strava-activity-name a {
+    text-decoration: none;
+    color: var(--strava-dark);
+}
+
+.strava-activity-name a:hover {
+    color: var(--strava-orange);
+}
+
+.strava-sport-badge {
+    display: inline-block;
+    background: var(--strava-light);
+    border: 1px solid var(--strava-border);
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 12px;
+    color: var(--strava-gray);
+    white-space: nowrap;
+}
+
+.strava-status-imported {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--strava-green);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.strava-status-importing {
+    color: var(--strava-blue);
+    font-size: 13px;
+}
+
+.strava-status-error {
+    color: var(--strava-red);
+    font-size: 13px;
+}
+
+.strava-status-ready {
+    color: var(--strava-gray);
+    font-size: 13px;
+}
+
+tr.strava-row-imported {
+    opacity: 0.6;
+}
+
+tr.strava-row-importing {
+    background-color: #f0f6ff !important;
+}
+
+/* Pagination */
+.strava-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px 0 4px;
+}
+
+#strava-page-info {
+    color: var(--strava-gray);
+    font-size: 13px;
+}
+
+/* Progress Bar */
+#strava-import-progress {
+    margin-top: 20px;
+}
+
+.strava-progress-bar {
+    height: 8px;
+    background: var(--strava-light);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.strava-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--strava-orange), #ff7e3f);
+    border-radius: 4px;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.strava-progress-text {
+    text-align: center;
+    color: var(--strava-gray);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.strava-import-log {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid var(--strava-border);
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 13px;
+    line-height: 1.8;
+    background: var(--strava-light);
+}
+
+.strava-log-success {
+    color: var(--strava-green);
+}
+
+.strava-log-error {
+    color: var(--strava-red);
+}
+
+/* Empty state */
+.strava-empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--strava-gray);
+}
+
+.strava-empty-state p {
+    font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .strava-header {
+        margin: -10px -12px 20px -12px;
+        padding: 16px 20px;
+    }
+
+    .strava-athlete-info {
+        flex-wrap: wrap;
+    }
+
+    .strava-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #strava-activities-table {
+        font-size: 13px;
+    }
+}
