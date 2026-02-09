@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+- "Update" button on already-imported activities to re-fetch data from Strava and update the existing WordPress post in place, preserving post ID, date, status, author, and comments.
+
 ### Changed
 - Featured image now uses external Strava URL directly (via a WordPress attachment record) instead of downloading the file, avoiding download/sideload failures.
 - Gallery images use external Strava URLs directly in the post content.

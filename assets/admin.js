@@ -128,9 +128,13 @@
         var stravaUrl = 'https://www.strava.com/activities/' + activity.id;
         var isImported = activity.already_imported;
 
-        var statusHtml = isImported
-            ? '<span class="strava-status-imported">✅ Imported</span>'
-            : '<span class="strava-status-ready" id="status-' + activity.id + '">—</span>';
+        var statusHtml;
+        if ( isImported ) {
+            statusHtml = '<span class="strava-status-imported">✅ <a href="' + escHtml(activity.edit_url) + '" target="_blank">Imported</a></span>' +
+                ' <button type="button" class="button button-small strava-reimport-btn" data-id="' + activity.id + '" data-post-id="' + activity.wp_post_id + '">Update</button>';
+        } else {
+            statusHtml = '<span class="strava-status-ready" id="status-' + activity.id + '">—</span>';
+        }
 
         var checkboxHtml = isImported
             ? '<input type="checkbox" disabled />'
@@ -287,6 +291,57 @@
         }
 
         importNext(0);
+    });
+
+    // =====================
+    // Reimport (Update)
+    // =====================
+    $(document).on('click', '.strava-reimport-btn', function () {
+        if (!confirm('Update this activity with the latest data from Strava?')) {
+            return;
+        }
+
+        var $btn = $(this);
+        var activityId = $btn.data('id').toString();
+        var postId = $btn.data('post-id');
+        var $log = $('#strava-import-log');
+        var $progress = $('#strava-import-progress');
+
+        $btn.prop('disabled', true).text('Updating...');
+        $progress.show();
+        if ($log.is(':empty')) {
+            $log.empty();
+        }
+
+        $.ajax({
+            url: stravaImporter.ajaxUrl,
+            type: 'POST',
+            data: {
+                action: 'strava_reimport_activity',
+                nonce: stravaImporter.nonce,
+                activity_id: activityId,
+                post_id: postId,
+            },
+            success: function (response) {
+                if (response.success) {
+                    var d = response.data;
+                    $btn.closest('td').html(
+                        '<span class="strava-status-imported">✅ <a href="' + escHtml(d.edit_url) + '" target="_blank">Updated</a></span>' +
+                        ' <button type="button" class="button button-small strava-reimport-btn" data-id="' + activityId + '" data-post-id="' + d.post_id + '">Update</button>'
+                    );
+                    $log.append('<div class="strava-log-info">🔄 ' + escHtml(d.title) + ' → Post updated</div>');
+                } else {
+                    $btn.prop('disabled', false).text('Update');
+                    $log.append('<div class="strava-log-error">❌ Activity ' + activityId + ': ' + escHtml(response.data) + '</div>');
+                }
+                $log.scrollTop($log[0].scrollHeight);
+            },
+            error: function () {
+                $btn.prop('disabled', false).text('Update');
+                $log.append('<div class="strava-log-error">❌ Activity ' + activityId + ': Network error</div>');
+                $log.scrollTop($log[0].scrollHeight);
+            },
+        });
     });
 
     // =====================

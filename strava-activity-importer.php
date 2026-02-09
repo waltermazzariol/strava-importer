@@ -3,7 +3,7 @@
  * Plugin Name: Strava Activity Importer
  * Plugin URI: https://waltermazzariol.com
  * Description: Import your Strava activities as WordPress posts on demand. Includes activity stats, photos, maps, and descriptions.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Walter Mazzariol
  * Author URI: https://waltermazzariol.com
  * License: GPL v2 or later
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'STRAVA_IMPORTER_VERSION', '1.0.0' );
+define( 'STRAVA_IMPORTER_VERSION', '1.1.0' );
 define( 'STRAVA_IMPORTER_DIR', plugin_dir_path( __FILE__ ) );
 define( 'STRAVA_IMPORTER_URL', plugin_dir_url( __FILE__ ) );
 
@@ -38,6 +38,7 @@ class Strava_Activity_Importer {
         // AJAX handlers
         add_action( 'wp_ajax_strava_fetch_activities', array( $this, 'ajax_fetch_activities' ) );
         add_action( 'wp_ajax_strava_import_activity', array( $this, 'ajax_import_activity' ) );
+        add_action( 'wp_ajax_strava_reimport_activity', array( $this, 'ajax_reimport_activity' ) );
         add_action( 'wp_ajax_strava_disconnect', array( $this, 'ajax_disconnect' ) );
 
         // OAuth callback
@@ -297,26 +298,41 @@ class Strava_Activity_Importer {
         }
 
         // Check which activities are already imported
-        $imported_ids = $this->get_imported_activity_ids();
+        $imported_map = $this->get_imported_activity_ids();
 
         foreach ( $activities as &$activity ) {
-            $activity['already_imported'] = in_array( (string) $activity['id'], $imported_ids, true );
+            $strava_id = (string) $activity['id'];
+            if ( isset( $imported_map[ $strava_id ] ) ) {
+                $activity['already_imported'] = true;
+                $activity['wp_post_id']       = $imported_map[ $strava_id ];
+                $activity['edit_url']         = get_edit_post_link( $imported_map[ $strava_id ], 'raw' );
+            } else {
+                $activity['already_imported'] = false;
+            }
         }
 
         wp_send_json_success( $activities );
     }
 
     /**
-     * Get list of already imported Strava activity IDs
+     * Get map of imported Strava activity IDs to WordPress post IDs
+     *
+     * @return array Associative array of strava_activity_id => wp_post_id
      */
     private function get_imported_activity_ids() {
         global $wpdb;
 
-        $ids = $wpdb->get_col(
-            "SELECT meta_value FROM {$wpdb->postmeta} WHERE meta_key = '_strava_activity_id'"
+        $results = $wpdb->get_results(
+            "SELECT post_id, meta_value FROM {$wpdb->postmeta} WHERE meta_key = '_strava_activity_id'",
+            ARRAY_A
         );
 
-        return $ids;
+        $map = array();
+        foreach ( $results as $row ) {
+            $map[ $row['meta_value'] ] = (int) $row['post_id'];
+        }
+
+        return $map;
     }
 
     /**
@@ -347,10 +363,59 @@ class Strava_Activity_Importer {
             wp_send_json_error( __( 'This activity has already been imported.', 'strava-importer' ) );
         }
 
+        $result = $this->process_activity_import( $activity_id );
+
+        if ( is_wp_error( $result ) ) {
+            wp_send_json_error( $result->get_error_message() );
+        }
+
+        wp_send_json_success( $result );
+    }
+
+    /**
+     * AJAX: Re-import (update) an already-imported activity
+     */
+    public function ajax_reimport_activity() {
+        check_ajax_referer( 'strava_importer_nonce', 'nonce' );
+
+        if ( ! current_user_can( 'manage_options' ) ) {
+            wp_send_json_error( __( 'Permission denied.', 'strava-importer' ) );
+        }
+
+        $activity_id = isset( $_POST['activity_id'] ) ? sanitize_text_field( $_POST['activity_id'] ) : '';
+        $post_id     = isset( $_POST['post_id'] ) ? absint( $_POST['post_id'] ) : 0;
+
+        if ( empty( $activity_id ) || empty( $post_id ) ) {
+            wp_send_json_error( __( 'Activity ID and Post ID are required.', 'strava-importer' ) );
+        }
+
+        // Verify the post exists and matches the activity
+        $stored_activity_id = get_post_meta( $post_id, '_strava_activity_id', true );
+        if ( $stored_activity_id !== $activity_id ) {
+            wp_send_json_error( __( 'Post does not match the requested activity.', 'strava-importer' ) );
+        }
+
+        $result = $this->process_activity_import( $activity_id, $post_id );
+
+        if ( is_wp_error( $result ) ) {
+            wp_send_json_error( $result->get_error_message() );
+        }
+
+        wp_send_json_success( $result );
+    }
+
+    /**
+     * Process a Strava activity import (new or update).
+     *
+     * @param string $activity_id Strava activity ID.
+     * @param int    $post_id     Existing WP post ID to update, or 0 for new import.
+     * @return array|WP_Error Result data on success, WP_Error on failure.
+     */
+    private function process_activity_import( $activity_id, $post_id = 0 ) {
         // Get detailed activity
         $activity = $this->strava_api_get( 'activities/' . $activity_id );
         if ( is_wp_error( $activity ) ) {
-            wp_send_json_error( $activity->get_error_message() );
+            return $activity;
         }
 
         // Get photos
@@ -368,49 +433,55 @@ class Strava_Activity_Importer {
         // Build post content
         $content = $this->build_post_content( $activity, $photos );
 
-        // Determine post status and author
-        $post_status = get_option( 'strava_post_status', 'draft' );
-        $post_author = get_option( 'strava_post_author', get_current_user_id() );
+        if ( $post_id > 0 ) {
+            // Update existing post — only title and content, preserve date/status/author
+            $result = wp_update_post( array(
+                'ID'           => $post_id,
+                'post_title'   => sanitize_text_field( $activity['name'] ),
+                'post_content' => $content,
+            ), true );
+        } else {
+            // Create new post
+            $post_status = get_option( 'strava_post_status', 'draft' );
+            $post_author = get_option( 'strava_post_author', get_current_user_id() );
 
-        // Use activity local date for post date
-        $post_date = '';
-        if ( ! empty( $activity['start_date_local'] ) ) {
-            $post_date = str_replace( array( 'T', 'Z' ), array( ' ', '' ), $activity['start_date_local'] );
+            $post_date = '';
+            if ( ! empty( $activity['start_date_local'] ) ) {
+                $post_date = str_replace( array( 'T', 'Z' ), array( ' ', '' ), $activity['start_date_local'] );
+            }
+
+            $result = wp_insert_post( array(
+                'post_title'   => sanitize_text_field( $activity['name'] ),
+                'post_content' => $content,
+                'post_status'  => $post_status,
+                'post_author'  => $post_author,
+                'post_date'    => $post_date,
+                'post_type'    => 'post',
+            ), true );
+
+            $post_id = $result;
         }
 
-        // Create the post
-        $post_data = array(
-            'post_title'   => sanitize_text_field( $activity['name'] ),
-            'post_content' => $content,
-            'post_status'  => $post_status,
-            'post_author'  => $post_author,
-            'post_date'    => $post_date,
-            'post_type'    => 'post',
-        );
-
-        $post_id = wp_insert_post( $post_data, true );
-
-        if ( is_wp_error( $post_id ) ) {
-            wp_send_json_error( $post_id->get_error_message() );
+        if ( is_wp_error( $result ) ) {
+            return $result;
         }
 
-        // Assign category
+        // Assign categories
         $cat = get_term_by( 'slug', 'strava-activities', 'category' );
         if ( ! $cat ) {
-            $result = wp_insert_term( 'Strava Activities', 'category', array( 'slug' => 'strava-activities' ) );
-            $cat_id = is_array( $result ) ? $result['term_id'] : 0;
+            $term_result = wp_insert_term( 'Strava Activities', 'category', array( 'slug' => 'strava-activities' ) );
+            $cat_id = is_array( $term_result ) ? $term_result['term_id'] : 0;
         } else {
             $cat_id = $cat->term_id;
         }
 
-        // Also add sport type as category
         $sport_type = ! empty( $activity['sport_type'] ) ? $activity['sport_type'] : $activity['type'];
         $sport_cat  = get_term_by( 'name', $sport_type, 'category' );
         if ( ! $sport_cat ) {
-            $result    = wp_insert_term( $sport_type, 'category', array(
+            $term_result    = wp_insert_term( $sport_type, 'category', array(
                 'parent' => $cat_id,
             ) );
-            $sport_cat_id = is_array( $result ) ? $result['term_id'] : 0;
+            $sport_cat_id = is_array( $term_result ) ? $term_result['term_id'] : 0;
         } else {
             $sport_cat_id = $sport_cat->term_id;
         }
@@ -442,20 +513,41 @@ class Strava_Activity_Importer {
             update_post_meta( $post_id, '_strava_polyline', $activity['map']['summary_polyline'] );
         }
 
-        // Set featured image from first photo using external URL
+        // Handle featured image
         if ( ! empty( $photos ) ) {
             $featured_url = $this->get_photo_url( $photos[0] );
             if ( ! empty( $featured_url ) ) {
+                $this->cleanup_strava_featured_image( $post_id );
                 $this->set_external_featured_image( $post_id, $featured_url, $activity['name'] );
             }
         }
 
-        wp_send_json_success( array(
+        return array(
             'post_id'  => $post_id,
             'edit_url' => get_edit_post_link( $post_id, 'raw' ),
             'view_url' => get_permalink( $post_id ),
             'title'    => $activity['name'],
-        ) );
+        );
+    }
+
+    /**
+     * Remove the existing Strava-created featured image attachment.
+     *
+     * Only deletes if the attachment was created by this plugin
+     * (has _strava_external_url meta). User-set images are preserved.
+     *
+     * @param int $post_id WordPress post ID.
+     */
+    private function cleanup_strava_featured_image( $post_id ) {
+        $thumbnail_id = get_post_thumbnail_id( $post_id );
+        if ( ! $thumbnail_id ) {
+            return;
+        }
+
+        $strava_url = get_post_meta( $thumbnail_id, '_strava_external_url', true );
+        if ( ! empty( $strava_url ) ) {
+            wp_delete_attachment( $thumbnail_id, true );
+        }
     }
 
     /**

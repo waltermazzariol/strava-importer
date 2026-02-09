@@ -278,7 +278,17 @@
 }
 
 tr.strava-row-imported {
-    opacity: 0.6;
+    opacity: 0.75;
+}
+
+.strava-reimport-btn {
+    margin-left: 6px !important;
+    vertical-align: middle;
+}
+
+.strava-reimport-btn:hover {
+    color: var(--strava-orange) !important;
+    border-color: var(--strava-orange) !important;
 }
 
 tr.strava-row-importing {
@@ -344,6 +354,10 @@ tr.strava-row-importing {
 
 .strava-log-error {
     color: var(--strava-red);
+}
+
+.strava-log-info {
+    color: var(--strava-blue);
 }
 
 /* Empty state */
