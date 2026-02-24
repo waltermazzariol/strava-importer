@@ -127,6 +127,21 @@ if ( ! defined( 'ABSPATH' ) ) exit;
         </div>
     </div>
 
+    <!-- DEV: Fixture Import (only shown when fixture files are present) -->
+    <?php if ( file_exists( STRAVA_IMPORTER_DIR . 'fixture-activity.json' ) ) : ?>
+    <div class="strava-card" style="border: 2px dashed #f0b849;">
+        <div class="strava-card-header">
+            <h2>🧪 Dev: Import from Fixture</h2>
+        </div>
+        <div class="strava-card-body">
+            <p style="color:#666;margin-top:0">Imports using local <code>fixture-activity.json</code><?php echo file_exists( STRAVA_IMPORTER_DIR . 'fixture-photos.json' ) ? ' + <code>fixture-photos.json</code>' : ''; ?>. No Strava connection required.</p>
+            <button type="button" class="button button-secondary" id="strava-import-fixture">Import Fixture Activity</button>
+            <span class="spinner" id="fixture-spinner"></span>
+            <div id="fixture-result" style="margin-top:10px;"></div>
+        </div>
+    </div>
+    <?php endif; ?>
+
     <!-- Import Section -->
     <?php if ( $is_connected ) : ?>
     <div class="strava-card">

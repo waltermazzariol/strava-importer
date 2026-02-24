@@ -1,0 +1,4041 @@
+{
+    "resource_state": 3,
+    "athlete": {
+        "id": 36809051,
+        "resource_state": 1
+    },
+    "name": "32km Long Run",
+    "distance": 32018,
+    "moving_time": 12397,
+    "elapsed_time": 12427,
+    "total_elevation_gain": 271,
+    "type": "Run",
+    "sport_type": "Run",
+    "workout_type": 0,
+    "device_name": "Garmin Forerunner 165",
+    "id": 17482945037,
+    "start_date": "2026-02-22T08:58:52Z",
+    "start_date_local": "2026-02-22T09:58:52Z",
+    "timezone": "(GMT+01:00) Europe\/Madrid",
+    "utc_offset": 3600,
+    "location_city": null,
+    "location_state": null,
+    "location_country": null,
+    "achievement_count": 2,
+    "kudos_count": 3,
+    "comment_count": 0,
+    "athlete_count": 1,
+    "photo_count": 0,
+    "map": {
+        "id": "a17482945037",
+        "polyline": "w}t}FslaJA@AD?j@TbGJNHBXAhCm@d@G~AMfDF|AAp@EZG^K~@e@tAShAEf@@jC?XBxA@TATEb@WJKTc@P}@Be@a@kFDGVWP]J{@Go@[q@Ga@EuBEu@AkBKqB@a@Le@F_@?cAGkCEQEg@CaDNgCZaABeAPqAHmHEwAOwAKg@I{@QeDAo@FqAAk@B_AEiCIIW@cANk@R_@V_@l@u@j@aAf@]FUCi@YUQ]g@WYm@_@UK[KWQG?M@c@^KCa@c@Q[?]Mi@U}Ak@aBa@g@[OgAcAeCeBy@q@KCI?UNIJI?IKK[OOSMiAcAa@Ye@e@a@[Qk@OWMa@e@k@i@e@[[[S]MO@QHOm@UWCIk@aAe@}@a@_@KCIDILUPeAvASJGA[a@IUIAEIQq@iAkCSYi@sAEWSa@[k@e@YSCI@YHiAb@}@f@Wa@CKHq@Ee@EOKOYOo@AgBSU?SEu@A}AO_BEWDMAQM[KaE]{@E]?_@CECE@WAWIqAMEEMAaAEw@GOFOAc@Ea@MuBMk@G]AoBOs@C[VKDO?KHSv@_@^Yz@_B`DCL@JCJWb@Sh@c@`AKJOZ_@~@G?SMa@HKA[IsB]_@SOUEQAk@KkAOcECe@Om@o@yB[cBOcAOy@Ge@BKHKREtADNAHCBCFOAcAIOICk@RyAVYCGKEOMyAEuAKqAO]W_@]o@e@g@GQCuB?s@HeBAU_@oCQc@e@q@Wq@k@{@Ge@Co@[qAE}@Mc@U]M[CAIBGz@Ml@_@|@St@[z@g@x@KTg@f@aB~@c@?OPMFo@AKFY?UDy@ZUPUh@ONMBS?i@IUMUGy@VG?ACB@P?d@QN?VNVH\\FX?VKTk@FKLGfAa@r@I\\?PI?QCa@@KHERGd@CFCTe@j@s@ZOvAwA\\Wd@}@No@DWDmAEYGGE?i@DWEaAs@cAi@aAq@q@_@m@g@y@}@w@q@UQ}@e@cCsB_BkAoB{AyAcBqAgB[g@q@q@_@i@Q[M_AGOIOcAiAeAaAkA}@q@]qA_AyBsAWSQUo@cAgBeDk@w@i@cAwAuCoAaCQg@I]M[w@oAe@aAq@eA_@w@IMc@]OAo@RSJGBCAE]TOZEJIJU?YIWgA{ByAiDm@gBw@wB{@{C?YP]zBgBFI?GUc@}EuGc@g@m@i@y@i@uAmAqEcDkBeBqA{@m@e@k@g@U[c@_@wBaBa@WuC_CiBqA}BiB{C{Bq@m@yFgEgA_A}AiAu@m@UWSe@Ga@?Sf@oKHmCHoAFgBDQHKHALDjBxA`BhAPFt@f@|@d@nBx@l@\\jA|@t@ZNNzC`Ct@f@\\ZhBrApAlA\\P|@l@jBxAd@d@~AdAz@v@dAt@xAnA`D`CzCbCbAp@d@f@bCfBxD~CbDdCz@z@j@\\LL~C`CnBfBt@l@rA|@@DCDU@QPKDUGO?QBW?QDi@Fe@@_AJgA^_A^i@r@YXMTi@p@ST]f@kAtAu@dAODWCMFMJGXDl@?FGFQB[E[DKFa@^i@ZGHAJDXhAnDlArCjAjCTb@Xp@?TKLK@[PWHCDFZDDFAj@[XAZH^^fArBj@lAl@x@N^Pj@d@hArCvFhCfEv@|Al@`A`@`@fBfAhBpAbAh@`BtAv@v@r@x@JXJt@FPR\\r@v@fCrDrAxAv@p@t@b@PRzAdAvBjBvA|@h@b@rArA`BdAb@^`CtAd@TTA^GJBHMHAAAC@ILG|AS`A[t@Y~@BC?A[|@i@lAIJo@j@_Aj@OBKFSZSlBAj@Gt@Ab@W|CE|@a@hGARLn@?PALQb@Cb@GFW@e@KQYI[IMMCS?q@GI?GBGVKTKLYNWGKIc@u@KI[I[?yAJgAPs@FkCf@_Cf@KHW\\KD[AQQG?qAVgBVoADSCMEU[e@Ce@Im@Gu@AeAF{@RWBMFg@Jw@LYJu@Re@TI?s@Xa@JiBr@kChA[Rc@\\[NgCnBMBWAODGFSd@YZADB\\EFUB_Cd@qBXSJQFa@?e@Ei@Do@Z]`@_@VMDCEMc@QMQEkCTmBHy@@e@C]EsE}@uAU}Dy@gB[i@QeB[c@GQ?mB[y@GgMOw@A[BUEmACmECc@GeCEk@?{AFg@GuEMWGgBGc@B_@GmAGk@AGH?ZfB`Jb@bCB\\l@zC^pAZdCZlARvAb@lBLFZGZHFBFLHd@JFVATHZBn@Cl@?jABr@FVAhATvAJJFHN@nADb@\\bBVx@t@vATnAX|@^lBNXb@h@Nd@Bd@Gl@]tA}@dDCp@NxCd@rDTlAbAzDB\\DXHlAPz@Z|@h@bAt@hBbAlC`@j@r@lBt@bCVn@nEpJ|AtEHVVn@`@|@`AbBn@tA|A`Er@`BVbALdAZvEJTHd@\\j@l@j@p@|@|@jBz@pCPx@Pf@v@vAPd@^rAZzAPn@b@fAh@bBx@pD\\nAh@jAb@j@j@`Ah@jAhAlD~@xDjAlEd@nA\\j@Vp@b@hBXzBPpCA~@BLHDHGLS~B_C|@eAjAiAVQZK^Yh@SzBmBb@e@x@u@h@{@Zu@R]l@cBh@s@^[JGXCp@?JADE@[_@cAi@cBOu@Cc@HAPB^SzAa@TEZ@\\Cl@ONOT_@Re@jAqA|@wAj@o@h@w@p@mBNwAH[FOj@o@Pm@PwA?u@Cm@Bc@`@y@Ze@ZUd@MROn@yADe@C[Q_ASm@Eg@Jc@LUZGl@CfBYpAc@t@O^E`@@l@G`@NX^\\j@`@jAR~@J\\n@rAt@lAXp@JZFBXMLDVTFPHBALEFAHDf@HZ?~@DAZSp@{@JWLKVKTOPEZ@LB@FR`DVdDRCROp@u@jA}Al@k@d@a@l@_@lAo@b@Qd@KjAIr@C\\FVAL@`Bb@t@VH@BADOPiBBIPMN@TGPFRGF@Vd@RTh@\\nAr@RPHJ\\|@l@`@r@LFA^OTCdAPf@LHABEP{BH[FOFEZ@xB\\|AFp@Iz@O~@Yf@]|@Kz@_@JCPARHHLZbALz@JNVR\\h@p@n@pAP\\GPWNGZDNABCNQLUl@i@Za@VYLUZUF[Xc@n@sATeAPi@l@kATs@j@{AV{@p@mATk@Jg@HOFIb@[b@a@N]LFDITObB_ArCo@d@WdBc@lDe@RF\\ATKh@YXKf@IXK|@U`AE\\GP@jAMl@UxAU\\?VIZMLC|@Er@Oh@Ex@Kr@Al@@jBS\\F\\?nAE|AUVAFCHIR_@RETMJCr@BLDT@p@C^LNLJDn@DTGFG?GCCMC}@@sBI_@Qg@CM?OBWPU`@QNGBwARyAF",
+        "resource_state": 3,
+        "summary_polyline": "w}t}FslaJPvHTRhHeAvH?pEmAfK?x@]`@o@TcBa@kFn@}@J{@k@cCYiKVkDWgJj@iETwCHmH}@yL@wJa@GoBb@uBpB_Bn@_A]kAsAwBiAeA\\s@_Ac@eDk@aBa@g@cHkF_AVe@w@gEmDuAqCaBuA_AAOm@mCaEU@eBvB[Hu@cAoEqKcA[aDtA[m@BwAk@o@mMm@{@[}MkAcQgAcAf@Sv@_@^yB|EqC|GiAEoD{@Ug@a@aJ_AgDcAgG`@]nB?HwASSeCj@a@Oe@qGsBgDDoGa@eD{BcEm@eFq@}AM@UhBoAnD{AvBaB~@gF`A{@jAwB[cARjAOfB`@VKj@_AjDu@A_AjAU`AyApC_Ct@mBD_CoAGyFoD_DwCgLsIyGoIg@kBmAyAyL{ImFeJgDwGi@aByD}Gs@_@oA`@E]|@_@Jo@kD}HaD{JPw@bCyBsFyHeWySqe@w^[{AhAgV\\IpEdDdLfG~jAf~@u@d@qFVgC~@oHnJcATIvAiAB_BlABd@hAnDhEtJKb@_A\\B`@rAYz@h@`DzFfAtCrCvFnFfJvHdFxClCr@x@r@~BnGdInTvPfDjBtAUOL[~CwBzFiDjC_BxUJtA_@|A}@Ie@cAsAKe@p@e@\\c@Qo@_Aw@IaJlA_Cf@o@l@u@SiGt@w@e@kAMiDAqGxA{JxDcFpDu@Fu@hACj@mHvAqB?{BzAQi@c@SyF^}BG_VwE}Ek@_c@a@cQi@lIfd@dAHd@~@~HP`D`@TVFrB\\bBlApCnAzFbAhBCrA{AzFCp@t@lIxAhGd@`E`FdL`C`HnEpJ~B|GrCvFpCbHd@hCZvETz@|BtC|@jB~ArFhA|BrFlSbDdGtEtPzAlD|@dFR~ERAvGcH|BkAxEiEpDgHj@c@|AK@[iAgDSyAtGkAxGgJp@mBXsBdAmBPwA?gC|@_BtAs@n@yA@aAk@uCXy@xHyAnBK`@Nv@jA`AhDjCnFn@Ch@j@I^NbClBuB~@a@h@Dl@nIf@SjD_E`DqBhEk@dFdA^eCv@Sl@@j@z@lCbBf@hAl@`@r@L|@UlB^LGP{BXq@rFf@lBYfBw@vCq@\\Vh@~B`AlAp@n@pAP~@g@n@?hDyDxBcGdFiM~AeBLF~ByA~GkB~E_@xE}A|DYfFgAtEg@xIQ|B[\\i@t@WhCFjBf@\\OyGm@wAjAqDZ"
+    },
+    "trainer": false,
+    "commute": false,
+    "manual": false,
+    "private": false,
+    "visibility": "everyone",
+    "flagged": false,
+    "gear_id": "g27900926",
+    "start_latlng": [
+        41.7278009999999994761310517787933349609375,
+        1.814659999999999939745976007543504238128662109375
+    ],
+    "end_latlng": [
+        41.72507499999999680539986002258956432342529296875,
+        1.8147759999999999447339860125794075429439544677734375
+    ],
+    "average_speed": 2.5830000000000001847411112976260483264923095703125,
+    "max_speed": 4.17999999999999971578290569595992565155029296875,
+    "average_cadence": 80.599999999999994315658113919198513031005859375,
+    "average_temp": 22,
+    "average_watts": 271,
+    "max_watts": 415,
+    "weighted_average_watts": 273,
+    "device_watts": true,
+    "kilojoules": 3361.5,
+    "has_heartrate": true,
+    "average_heartrate": 155.30000000000001136868377216160297393798828125,
+    "max_heartrate": 171,
+    "heartrate_opt_out": false,
+    "display_hide_heartrate_option": true,
+    "elev_high": 329.19999999999998863131622783839702606201171875,
+    "elev_low": 199.599999999999994315658113919198513031005859375,
+    "upload_id": 18580238723,
+    "upload_id_str": "18580238723",
+    "external_id": "garmin_ping_538316989147",
+    "from_accepted_tag": false,
+    "pr_count": 0,
+    "total_photo_count": 7,
+    "has_kudoed": false,
+    "suffer_score": 408,
+    "description": "32k se dicen f\u00e1cil, pero qu\u00e9 largos son.\r\n\r\nLa verdad es que durante la semana he tratado de quitarle importancia. Si ya corr\u00ed 25k, \u00bfqu\u00e9 tan dif\u00edcil puede ser hacer 7k adicionales? Spoiler alert: s\u00ed es dif\u00edcil.\r\n\r\nEl d\u00eda empez\u00f3 muy bien. Dorm\u00ed incre\u00edble y la previsi\u00f3n de tiempo era perfecta: sol con una temperatura entre 6 y 15 grados. Tomando en cuenta el tiempo que me tomar\u00eda completar la distancia, todo estaba en orden.\r\n\r\nNormalmente en distancias largas trato de hacer una ruta circular. El problema es que para una ruta tan larga aqu\u00ed en Manresa es pr\u00e1cticamente imposible no encontrarte con subidas. De otra forma tendr\u00eda que repetir tramos de 1-2 kil\u00f3metros.\r\n\r\nAs\u00ed que tom\u00e9 la que ya hab\u00eda hecho para los 20k hace un par de semanas, con un recorrido que ya conoc\u00eda de subidas pero sin sorpresas, y le a\u00f1ad\u00ed una ruta adicional de 12k para poder marcar la distancia final.\r\n\r\nCorrer en tierra siempre es una prioridad, as\u00ed que me asegur\u00e9 de que la mayor\u00eda de la ruta fuera en tierra, aunque eso significara m\u00e1s subidas.\r\n\r\nLa idea era hacer la mitad de la ruta que ya conoc\u00eda, a\u00f1adir los 12k adicionales y terminar teniendo claro lo que me faltaba de recorrido m\u00e1s la bajada final. Llev\u00e9 3 geles para emular la carrera y ver si me hac\u00edan falta cada 8k. Creo que fueron muchos. Con 2 hubiese terminado sin problema.\r\n\r\nComo si de una energ\u00eda adicional necesitara, a mitad de la ruta y completamente de frente me encontr\u00e9 a Yeli con su grupo haciendo una ruta de geolocalizaci\u00f3n. Obviamente sab\u00eda que estar\u00eda por ah\u00ed, pero el espacio es tan grande y el punto de coincidencia tan estrecho que encontrarnos en ese punto fue pura casualidad. Aprovech\u00e9 de parar unos segundos para darnos un abrazo y seguir con mi ruta.\r\n\r\nContinu\u00e9 mi ruta hacia Santpedor. Media carrera por delante con algunas subidas ligeras que se extend\u00edan hasta el kil\u00f3metro 22 m\u00e1s o menos.\r\n\r\nEstos 10k finales fueron una mezcla de pasarla bien pero con las piernas bastante cargadas. Un paisaje verde con una ruta de tierra que va en bajada pero que parece nunca terminar. Por un momento me sent\u00ed en esas secuencias donde los kil\u00f3metros van pasando y sonando de fondo en los aud\u00edfonos. Kil\u00f3metro 23, kil\u00f3metro 24, kil\u00f3metro 25. Ya quedan solo 7.\r\n\r\nAqu\u00ed me puse en modo eficiencia. C\u00f3mo correr al mismo ritmo pero sin cansarme de m\u00e1s. \u00a1Ya estamos en bajada! Pensando en que ya estaba casi listo. Kil\u00f3metro 28, kil\u00f3metro 29. Solo quedan 3. Mis piernas pesadas pero movi\u00e9ndose con la misma fuerza del principio.\r\n\r\nPor fin llega el kil\u00f3metro 32. Paro el reloj y lo primero que se me viene a la mente: todav\u00eda quedar\u00edan 10k m\u00e1s para terminar la marat\u00f3n. Y fue cuando entend\u00ed por qu\u00e9 dicen que en los 30k es cuando uno se encuentra la pared.\r\n\r\nDe igual forma me sent\u00ed bien. Primera vez que corro una distancia tan larga, y llegar de esa manera y poder terminarla se siente muy bien. No voy a mentir, mis piernas ma\u00f1ana van a doler, pero ser\u00e1 un dolor de esfuerzo que construye para poder llegar a esos 42k el 15 de marzo.",
+    "calories": 2225,
+    "perceived_exertion": null,
+    "prefer_perceived_exertion": false,
+    "segment_efforts": [
+        {
+            "id": 3460630011023637434,
+            "resource_state": 2,
+            "name": "pont Cardener",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 52,
+            "moving_time": 52,
+            "start_date": "2026-02-22T08:58:54Z",
+            "start_date_local": "2026-02-22T09:58:54Z",
+            "distance": 159.400000000000005684341886080801486968994140625,
+            "start_index": 2,
+            "end_index": 54,
+            "average_cadence": 77.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 258.5,
+            "average_heartrate": 122.900000000000005684341886080801486968994140625,
+            "max_heartrate": 134,
+            "segment": {
+                "id": 8578791,
+                "resource_state": 2,
+                "name": "pont Cardener",
+                "activity_type": "Run",
+                "distance": 159.400000000000005684341886080801486968994140625,
+                "average_grade": -2.5,
+                "maximum_grade": 0,
+                "elevation_high": 219,
+                "elevation_low": 215,
+                "start_latlng": [
+                    41.72785400000000066711436375044286251068115234375,
+                    1.8146219999999999572537490166723728179931640625
+                ],
+                "end_latlng": [
+                    41.72755399999999781357473693788051605224609375,
+                    1.812780000000000057980287238024175167083740234375
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011024675770,
+            "resource_state": 2,
+            "name": "Congost a Carpes",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 155,
+            "moving_time": 155,
+            "start_date": "2026-02-22T09:04:21Z",
+            "start_date_local": "2026-02-22T10:04:21Z",
+            "distance": 410.3999999999999772626324556767940521240234375,
+            "start_index": 329,
+            "end_index": 484,
+            "average_cadence": 81.5,
+            "device_watts": true,
+            "average_watts": 250.30000000000001136868377216160297393798828125,
+            "average_heartrate": 144.900000000000005684341886080801486968994140625,
+            "max_heartrate": 148,
+            "segment": {
+                "id": 6809967,
+                "resource_state": 2,
+                "name": "Congost a Carpes",
+                "activity_type": "Run",
+                "distance": 410.3999999999999772626324556767940521240234375,
+                "average_grade": -2.29999999999999982236431605997495353221893310546875,
+                "maximum_grade": 8.9000000000000003552713678800500929355621337890625,
+                "elevation_high": 211.19999999999998863131622783839702606201171875,
+                "elevation_low": 200.099999999999994315658113919198513031005859375,
+                "start_latlng": [
+                    41.721260000000000900399754755198955535888671875,
+                    1.813766999999999907089431872009299695491790771484375
+                ],
+                "end_latlng": [
+                    41.72122499999999689634933019988238811492919921875,
+                    1.818203000000000013613998817163519561290740966796875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "CT",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022561210,
+            "resource_state": 2,
+            "name": "Congost a Pont Vell",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 502,
+            "moving_time": 502,
+            "start_date": "2026-02-22T09:04:27Z",
+            "start_date_local": "2026-02-22T10:04:27Z",
+            "distance": 1295.59999999999990905052982270717620849609375,
+            "start_index": 335,
+            "end_index": 837,
+            "average_cadence": 81.2999999999999971578290569595992565155029296875,
+            "device_watts": true,
+            "average_watts": 255.69999999999998863131622783839702606201171875,
+            "average_heartrate": 146.30000000000001136868377216160297393798828125,
+            "max_heartrate": 153,
+            "segment": {
+                "id": 9348262,
+                "resource_state": 2,
+                "name": "Congost a Pont Vell",
+                "activity_type": "Run",
+                "distance": 1295.59999999999990905052982270717620849609375,
+                "average_grade": -1.8000000000000000444089209850062616169452667236328125,
+                "maximum_grade": 18.199999999999999289457264239899814128875732421875,
+                "elevation_high": 233.400000000000005684341886080801486968994140625,
+                "elevation_low": 204.900000000000005684341886080801486968994140625,
+                "start_latlng": [
+                    41.7211199999999990950527717359364032745361328125,
+                    1.81379000000000001335820343228988349437713623046875
+                ],
+                "end_latlng": [
+                    41.72109999999999985220711096189916133880615234375,
+                    1.8289400000000000101607611213694326579570770263671875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011025661882,
+            "resource_state": 2,
+            "name": "1\/2 Trot dels triatletes",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 209,
+            "moving_time": 209,
+            "start_date": "2026-02-22T09:05:45Z",
+            "start_date_local": "2026-02-22T10:05:45Z",
+            "distance": 526,
+            "start_index": 413,
+            "end_index": 622,
+            "average_cadence": 81.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 254.19999999999998863131622783839702606201171875,
+            "average_heartrate": 145.900000000000005684341886080801486968994140625,
+            "max_heartrate": 150,
+            "segment": {
+                "id": 40481731,
+                "resource_state": 2,
+                "name": "1\/2 Trot dels triatletes",
+                "activity_type": "Run",
+                "distance": 526,
+                "average_grade": -0.59999999999999997779553950749686919152736663818359375,
+                "maximum_grade": 13.300000000000000710542735760100185871124267578125,
+                "elevation_high": 198,
+                "elevation_low": 195,
+                "start_latlng": [
+                    41.72092099999999703641151427291333675384521484375,
+                    1.8160890000000000643609610051498748362064361572265625
+                ],
+                "end_latlng": [
+                    41.72120699999999970941644278354942798614501953125,
+                    1.8223480000000000789128762335167266428470611572265625
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalonia",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022162874,
+            "resource_state": 2,
+            "name": "Carpes",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 94,
+            "moving_time": 94,
+            "start_date": "2026-02-22T09:05:54Z",
+            "start_date_local": "2026-02-22T10:05:54Z",
+            "distance": 243.400000000000005684341886080801486968994140625,
+            "start_index": 422,
+            "end_index": 516,
+            "average_cadence": 81.2000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 252.69999999999998863131622783839702606201171875,
+            "average_heartrate": 146.5,
+            "max_heartrate": 148,
+            "segment": {
+                "id": 8236934,
+                "resource_state": 2,
+                "name": "Carpes",
+                "activity_type": "Run",
+                "distance": 243.400000000000005684341886080801486968994140625,
+                "average_grade": -5.0999999999999996447286321199499070644378662109375,
+                "maximum_grade": 2.70000000000000017763568394002504646778106689453125,
+                "elevation_high": 218.400000000000005684341886080801486968994140625,
+                "elevation_low": 205.5,
+                "start_latlng": [
+                    41.72084499999999707142706029117107391357421875,
+                    1.8163519999999999665618588551296852529048919677734375
+                ],
+                "end_latlng": [
+                    41.721260000000000900399754755198955535888671875,
+                    1.8191649999999999209876477834768593311309814453125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalonia",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011021733818,
+            "resource_state": 2,
+            "name": "Carpes - Passeig del Riu - Rotonda ",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 317,
+            "moving_time": 317,
+            "start_date": "2026-02-22T09:07:41Z",
+            "start_date_local": "2026-02-22T10:07:41Z",
+            "distance": 801.3999999999999772626324556767940521240234375,
+            "start_index": 529,
+            "end_index": 846,
+            "average_cadence": 81.2999999999999971578290569595992565155029296875,
+            "device_watts": true,
+            "average_watts": 258.5,
+            "average_heartrate": 147.30000000000001136868377216160297393798828125,
+            "max_heartrate": 153,
+            "segment": {
+                "id": 11263064,
+                "resource_state": 2,
+                "name": "Carpes - Passeig del Riu - Rotonda ",
+                "activity_type": "Run",
+                "distance": 801.3999999999999772626324556767940521240234375,
+                "average_grade": -0.5,
+                "maximum_grade": 7.5,
+                "elevation_high": 215.30000000000001136868377216160297393798828125,
+                "elevation_low": 204.30000000000001136868377216160297393798828125,
+                "start_latlng": [
+                    41.7211810000000014042598195374011993408203125,
+                    1.819580999999999892935420575668103992938995361328125
+                ],
+                "end_latlng": [
+                    41.72119099999999747296897112391889095306396484375,
+                    1.8290379999999999416360196846653707325458526611328125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011025297338,
+            "resource_state": 2,
+            "name": "Sirex",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 271,
+            "moving_time": 271,
+            "start_date": "2026-02-22T09:11:26Z",
+            "start_date_local": "2026-02-22T10:11:26Z",
+            "distance": 533.799999999999954525264911353588104248046875,
+            "start_index": 754,
+            "end_index": 1025,
+            "average_cadence": 81.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 295.19999999999998863131622783839702606201171875,
+            "average_heartrate": 153.19999999999998863131622783839702606201171875,
+            "max_heartrate": 160,
+            "segment": {
+                "id": 19294675,
+                "resource_state": 2,
+                "name": "Sirex",
+                "activity_type": "Run",
+                "distance": 533.799999999999954525264911353588104248046875,
+                "average_grade": 2.899999999999999911182158029987476766109466552734375,
+                "maximum_grade": 28.300000000000000710542735760100185871124267578125,
+                "elevation_high": 243.69999999999998863131622783839702606201171875,
+                "elevation_low": 222.900000000000005684341886080801486968994140625,
+                "start_latlng": [
+                    41.72140900000000129921318148262798786163330078125,
+                    1.8262799999999999034372422102023847401142120361328125
+                ],
+                "end_latlng": [
+                    41.724366000000003396053216420114040374755859375,
+                    1.8290599999999999081268242662190459668636322021484375
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": 2,
+            "achievements": [
+                {
+                    "type_id": 3,
+                    "type": "pr",
+                    "rank": 2
+                }
+            ],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011021701050,
+            "resource_state": 2,
+            "name": "Corrals",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 108,
+            "moving_time": 108,
+            "start_date": "2026-02-22T09:11:46Z",
+            "start_date_local": "2026-02-22T10:11:46Z",
+            "distance": 164.69999999999998863131622783839702606201171875,
+            "start_index": 774,
+            "end_index": 882,
+            "average_cadence": 81.5,
+            "device_watts": true,
+            "average_watts": 281.19999999999998863131622783839702606201171875,
+            "average_heartrate": 150.400000000000005684341886080801486968994140625,
+            "max_heartrate": 153,
+            "segment": {
+                "id": 16372543,
+                "resource_state": 2,
+                "name": "Corrals",
+                "activity_type": "Run",
+                "distance": 164.69999999999998863131622783839702606201171875,
+                "average_grade": 7.20000000000000017763568394002504646778106689453125,
+                "maximum_grade": 10.699999999999999289457264239899814128875732421875,
+                "elevation_high": 217.900000000000005684341886080801486968994140625,
+                "elevation_low": 206.099999999999994315658113919198513031005859375,
+                "start_latlng": [
+                    41.72142600000000101090336102060973644256591796875,
+                    1.8269740000000000978985781330266036093235015869140625
+                ],
+                "end_latlng": [
+                    41.7218280000000021345840650610625743865966796875,
+                    1.828688000000000091205265562166459858417510986328125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": 2,
+            "achievements": [
+                {
+                    "type_id": 3,
+                    "type": "pr",
+                    "rank": 2
+                }
+            ],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022209978,
+            "resource_state": 2,
+            "name": "Seu",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 102,
+            "moving_time": 102,
+            "start_date": "2026-02-22T09:13:05Z",
+            "start_date_local": "2026-02-22T10:13:05Z",
+            "distance": 239.69999999999998863131622783839702606201171875,
+            "start_index": 853,
+            "end_index": 955,
+            "average_cadence": 80.2999999999999971578290569595992565155029296875,
+            "device_watts": true,
+            "average_watts": 332,
+            "average_heartrate": 154.099999999999994315658113919198513031005859375,
+            "max_heartrate": 159,
+            "segment": {
+                "id": 5745211,
+                "resource_state": 2,
+                "name": "Seu",
+                "activity_type": "Run",
+                "distance": 239.69999999999998863131622783839702606201171875,
+                "average_grade": 13.0999999999999996447286321199499070644378662109375,
+                "maximum_grade": 17.60000000000000142108547152020037174224853515625,
+                "elevation_high": 236.69999999999998863131622783839702606201171875,
+                "elevation_low": 205.19999999999998863131622783839702606201171875,
+                "start_latlng": [
+                    41.7213550000000026329871616326272487640380859375,
+                    1.8290919999999999401296690848539583384990692138671875
+                ],
+                "end_latlng": [
+                    41.723038000000002512024366296827793121337890625,
+                    1.82825199999999998823341229581274092197418212890625
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "CT",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011025243066,
+            "resource_state": 2,
+            "name": "Sant Ignasi",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 161,
+            "moving_time": 161,
+            "start_date": "2026-02-22T09:13:08Z",
+            "start_date_local": "2026-02-22T10:13:08Z",
+            "distance": 370.3999999999999772626324556767940521240234375,
+            "start_index": 856,
+            "end_index": 1017,
+            "average_cadence": 80.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 312.8999999999999772626324556767940521240234375,
+            "average_heartrate": 155.19999999999998863131622783839702606201171875,
+            "max_heartrate": 160,
+            "segment": {
+                "id": 9693047,
+                "resource_state": 2,
+                "name": "Sant Ignasi",
+                "activity_type": "Run",
+                "distance": 370.3999999999999772626324556767940521240234375,
+                "average_grade": 8.199999999999999289457264239899814128875732421875,
+                "maximum_grade": 20.60000000000000142108547152020037174224853515625,
+                "elevation_high": 239.80000000000001136868377216160297393798828125,
+                "elevation_low": 206.099999999999994315658113919198513031005859375,
+                "start_latlng": [
+                    41.7214900000000028512658900581300258636474609375,
+                    1.82931299999999996686028680414892733097076416015625
+                ],
+                "end_latlng": [
+                    41.72415000000000162572177941910922527313232421875,
+                    1.828991999999999951143081489135511219501495361328125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022451642,
+            "resource_state": 2,
+            "name": "Avinguda Bertran Serra Climb",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 412,
+            "moving_time": 411,
+            "start_date": "2026-02-22T09:13:08Z",
+            "start_date_local": "2026-02-22T10:13:08Z",
+            "distance": 1018.6000000000000227373675443232059478759765625,
+            "start_index": 856,
+            "end_index": 1268,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 292.6000000000000227373675443232059478759765625,
+            "average_heartrate": 153.80000000000001136868377216160297393798828125,
+            "max_heartrate": 160,
+            "segment": {
+                "id": 9693114,
+                "resource_state": 2,
+                "name": "Avinguda Bertran Serra Climb",
+                "activity_type": "Run",
+                "distance": 1018.6000000000000227373675443232059478759765625,
+                "average_grade": 3.600000000000000088817841970012523233890533447265625,
+                "maximum_grade": 20.60000000000000142108547152020037174224853515625,
+                "elevation_high": 243.099999999999994315658113919198513031005859375,
+                "elevation_low": 206.099999999999994315658113919198513031005859375,
+                "start_latlng": [
+                    41.7214900000000028512658900581300258636474609375,
+                    1.82931299999999996686028680414892733097076416015625
+                ],
+                "end_latlng": [
+                    41.72827699999999850888343644328415393829345703125,
+                    1.83269999999999999573674358543939888477325439453125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011021674426,
+            "resource_state": 2,
+            "name": "Els Dolors",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 372,
+            "moving_time": 372,
+            "start_date": "2026-02-22T09:26:01Z",
+            "start_date_local": "2026-02-22T10:26:01Z",
+            "distance": 879.700000000000045474735088646411895751953125,
+            "start_index": 1629,
+            "end_index": 2001,
+            "average_cadence": 80.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 280.19999999999998863131622783839702606201171875,
+            "average_heartrate": 154.19999999999998863131622783839702606201171875,
+            "max_heartrate": 158,
+            "segment": {
+                "id": 10870646,
+                "resource_state": 2,
+                "name": "Els Dolors",
+                "activity_type": "Run",
+                "distance": 879.700000000000045474735088646411895751953125,
+                "average_grade": 2.600000000000000088817841970012523233890533447265625,
+                "maximum_grade": 5.79999999999999982236431605997495353221893310546875,
+                "elevation_high": 268.5,
+                "elevation_low": 245.30000000000001136868377216160297393798828125,
+                "start_latlng": [
+                    41.73398499999999700094122090376913547515869140625,
+                    1.83761799999999997368149706744588911533355712890625
+                ],
+                "end_latlng": [
+                    41.7417599999999993087840266525745391845703125,
+                    1.8387420000000000985806991593562997877597808837890625
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022845882,
+            "resource_state": 2,
+            "name": "A Salle",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 95,
+            "moving_time": 95,
+            "start_date": "2026-02-22T09:30:41Z",
+            "start_date_local": "2026-02-22T10:30:41Z",
+            "distance": 226.5,
+            "start_index": 1909,
+            "end_index": 2004,
+            "average_cadence": 80.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 284.80000000000001136868377216160297393798828125,
+            "average_heartrate": 154.69999999999998863131622783839702606201171875,
+            "max_heartrate": 157,
+            "segment": {
+                "id": 10871178,
+                "resource_state": 2,
+                "name": "A Salle",
+                "activity_type": "Run",
+                "distance": 226.5,
+                "average_grade": 3.399999999999999911182158029987476766109466552734375,
+                "maximum_grade": 4.20000000000000017763568394002504646778106689453125,
+                "elevation_high": 268.80000000000001136868377216160297393798828125,
+                "elevation_low": 261,
+                "start_latlng": [
+                    41.73982000000000169848135556094348430633544921875,
+                    1.83847000000000004860112312599085271358489990234375
+                ],
+                "end_latlng": [
+                    41.74184000000000338559402734972536563873291015625,
+                    1.83875000000000010658141036401502788066864013671875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011021669306,
+            "resource_state": 2,
+            "name": "Pujada Cor",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 131,
+            "moving_time": 131,
+            "start_date": "2026-02-22T09:32:56Z",
+            "start_date_local": "2026-02-22T10:32:56Z",
+            "distance": 289.279999999999972715158946812152862548828125,
+            "start_index": 2044,
+            "end_index": 2175,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 323.30000000000001136868377216160297393798828125,
+            "average_heartrate": 158.900000000000005684341886080801486968994140625,
+            "max_heartrate": 163,
+            "segment": {
+                "id": 2947893,
+                "resource_state": 2,
+                "name": "Pujada Cor",
+                "activity_type": "Run",
+                "distance": 289.279999999999972715158946812152862548828125,
+                "average_grade": 4.79999999999999982236431605997495353221893310546875,
+                "maximum_grade": 9.199999999999999289457264239899814128875732421875,
+                "elevation_high": 285.1000000000000227373675443232059478759765625,
+                "elevation_low": 271.1000000000000227373675443232059478759765625,
+                "start_latlng": [
+                    41.74261700000000274712874670512974262237548828125,
+                    1.8381469999999999753725887785549275577068328857421875
+                ],
+                "end_latlng": [
+                    41.7439499999999981127984938211739063262939453125,
+                    1.8355850000000000221689333557151257991790771484375
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalonia",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011025475514,
+            "resource_state": 2,
+            "name": "Aiguader",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 298,
+            "moving_time": 298,
+            "start_date": "2026-02-22T09:36:07Z",
+            "start_date_local": "2026-02-22T10:36:07Z",
+            "distance": 776.3999999999999772626324556767940521240234375,
+            "start_index": 2235,
+            "end_index": 2533,
+            "average_cadence": 81.2000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 273.80000000000001136868377216160297393798828125,
+            "average_heartrate": 156.400000000000005684341886080801486968994140625,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 19294782,
+                "resource_state": 2,
+                "name": "Aiguader",
+                "activity_type": "Run",
+                "distance": 776.3999999999999772626324556767940521240234375,
+                "average_grade": -0.59999999999999997779553950749686919152736663818359375,
+                "maximum_grade": 18.5,
+                "elevation_high": 295.30000000000001136868377216160297393798828125,
+                "elevation_low": 283,
+                "start_latlng": [
+                    41.7451760000000007266862667165696620941162109375,
+                    1.836167000000000104620312413317151367664337158203125
+                ],
+                "end_latlng": [
+                    41.74689099999999797319105709902942180633544921875,
+                    1.842818999999999984851228873594664037227630615234375
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022326714,
+            "resource_state": 2,
+            "name": "agulla's run",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 289,
+            "moving_time": 289,
+            "start_date": "2026-02-22T09:39:04Z",
+            "start_date_local": "2026-02-22T10:39:04Z",
+            "distance": 718.6000000000000227373675443232059478759765625,
+            "start_index": 2412,
+            "end_index": 2701,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 276.30000000000001136868377216160297393798828125,
+            "average_heartrate": 156.099999999999994315658113919198513031005859375,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 6065461,
+                "resource_state": 2,
+                "name": "agulla's run",
+                "activity_type": "Run",
+                "distance": 718.6000000000000227373675443232059478759765625,
+                "average_grade": 0.8000000000000000444089209850062616169452667236328125,
+                "maximum_grade": 17.5,
+                "elevation_high": 373.19999999999998863131622783839702606201171875,
+                "elevation_low": 366.80000000000001136868377216160297393798828125,
+                "start_latlng": [
+                    41.74533199999999766305336379446089267730712890625,
+                    1.84077000000000001733724275254644453525543212890625
+                ],
+                "end_latlng": [
+                    41.748120999999997593477019108831882476806640625,
+                    1.8474440000000000861035687194089405238628387451171875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "CT",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022359482,
+            "resource_state": 2,
+            "name": "Les aig\u00fces Agulla",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 166,
+            "moving_time": 166,
+            "start_date": "2026-02-22T09:41:07Z",
+            "start_date_local": "2026-02-22T10:41:07Z",
+            "distance": 422.80000000000001136868377216160297393798828125,
+            "start_index": 2535,
+            "end_index": 2701,
+            "average_cadence": 80.599999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 267.69999999999998863131622783839702606201171875,
+            "average_heartrate": 155.80000000000001136868377216160297393798828125,
+            "max_heartrate": 160,
+            "segment": {
+                "id": 14052032,
+                "resource_state": 2,
+                "name": "Les aig\u00fces Agulla",
+                "activity_type": "Run",
+                "distance": 422.80000000000001136868377216160297393798828125,
+                "average_grade": -1.1999999999999999555910790149937383830547332763671875,
+                "maximum_grade": 5.5999999999999996447286321199499070644378662109375,
+                "elevation_high": 289.8999999999999772626324556767940521240234375,
+                "elevation_low": 281,
+                "start_latlng": [
+                    41.74691599999999880310497246682643890380859375,
+                    1.842870000000000008100187187665142118930816650390625
+                ],
+                "end_latlng": [
+                    41.74810500000000246245690505020320415496826171875,
+                    1.8474589999999999623270241499994881451129913330078125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011023943610,
+            "resource_state": 2,
+            "name": "\u00daltim tram S\u00e8quia",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 86,
+            "moving_time": 86,
+            "start_date": "2026-02-22T09:47:43Z",
+            "start_date_local": "2026-02-22T10:47:43Z",
+            "distance": 237.900000000000005684341886080801486968994140625,
+            "start_index": 2931,
+            "end_index": 3017,
+            "average_cadence": 77.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 268.69999999999998863131622783839702606201171875,
+            "average_heartrate": 154.19999999999998863131622783839702606201171875,
+            "max_heartrate": 156,
+            "segment": {
+                "id": 18193307,
+                "resource_state": 2,
+                "name": "\u00daltim tram S\u00e8quia",
+                "activity_type": "Run",
+                "distance": 237.900000000000005684341886080801486968994140625,
+                "average_grade": -0.59999999999999997779553950749686919152736663818359375,
+                "maximum_grade": 12.9000000000000003552713678800500929355621337890625,
+                "elevation_high": 288.80000000000001136868377216160297393798828125,
+                "elevation_low": 285.80000000000001136868377216160297393798828125,
+                "start_latlng": [
+                    41.752015999999997575287125073373317718505859375,
+                    1.8445519999999999694040297981700859963893890380859375
+                ],
+                "end_latlng": [
+                    41.75003600000000147929313243366777896881103515625,
+                    1.84508500000000008611777957412414252758026123046875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011023092666,
+            "resource_state": 2,
+            "name": "Baixada (Agulla - Riu d'or)",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 658,
+            "moving_time": 658,
+            "start_date": "2026-02-22T09:51:15Z",
+            "start_date_local": "2026-02-22T10:51:15Z",
+            "distance": 1804.799999999999954525264911353588104248046875,
+            "start_index": 3143,
+            "end_index": 3801,
+            "average_cadence": 81.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 265.8999999999999772626324556767940521240234375,
+            "average_heartrate": 155.30000000000001136868377216160297393798828125,
+            "max_heartrate": 163,
+            "segment": {
+                "id": 11849162,
+                "resource_state": 2,
+                "name": "Baixada (Agulla - Riu d'or)",
+                "activity_type": "Run",
+                "distance": 1804.799999999999954525264911353588104248046875,
+                "average_grade": -1.399999999999999911182158029987476766109466552734375,
+                "maximum_grade": 3.20000000000000017763568394002504646778106689453125,
+                "elevation_high": 287.8999999999999772626324556767940521240234375,
+                "elevation_low": 259.8999999999999772626324556767940521240234375,
+                "start_latlng": [
+                    41.74828600000000022873791749589145183563232421875,
+                    1.847869999999999901518776823650114238262176513671875
+                ],
+                "end_latlng": [
+                    41.7607670000000013033059076406061649322509765625,
+                    1.860794999999999976836306814220733940601348876953125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022161850,
+            "resource_state": 2,
+            "name": "Up Eix\ud83d\udd3c",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 164,
+            "moving_time": 164,
+            "start_date": "2026-02-22T10:02:37Z",
+            "start_date_local": "2026-02-22T11:02:37Z",
+            "distance": 421,
+            "start_index": 3825,
+            "end_index": 3989,
+            "average_cadence": 81.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 302.6000000000000227373675443232059478759765625,
+            "average_heartrate": 158.30000000000001136868377216160297393798828125,
+            "max_heartrate": 162,
+            "segment": {
+                "id": 38475518,
+                "resource_state": 2,
+                "name": "Up Eix\ud83d\udd3c",
+                "activity_type": "Run",
+                "distance": 421,
+                "average_grade": 2.100000000000000088817841970012523233890533447265625,
+                "maximum_grade": 7.0999999999999996447286321199499070644378662109375,
+                "elevation_high": 261,
+                "elevation_low": 252,
+                "start_latlng": [
+                    41.7607900000000000773070496506989002227783203125,
+                    1.861069000000000084327211880008690059185028076171875
+                ],
+                "end_latlng": [
+                    41.7620059999999995170583133585751056671142578125,
+                    1.8652450000000000418509671362699009478092193603515625
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalonia",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011024753594,
+            "resource_state": 2,
+            "name": "Carrer A Climb LA SERRETA",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 611,
+            "moving_time": 611,
+            "start_date": "2026-02-22T10:05:47Z",
+            "start_date_local": "2026-02-22T11:05:47Z",
+            "distance": 1647.200000000000045474735088646411895751953125,
+            "start_index": 4015,
+            "end_index": 4626,
+            "average_cadence": 80.7999999999999971578290569595992565155029296875,
+            "device_watts": true,
+            "average_watts": 277.69999999999998863131622783839702606201171875,
+            "average_heartrate": 156.5,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 12719721,
+                "resource_state": 2,
+                "name": "Carrer A Climb LA SERRETA",
+                "activity_type": "Run",
+                "distance": 1647.200000000000045474735088646411895751953125,
+                "average_grade": 1,
+                "maximum_grade": 5.5999999999999996447286321199499070644378662109375,
+                "elevation_high": 281.8999999999999772626324556767940521240234375,
+                "elevation_low": 265,
+                "start_latlng": [
+                    41.7610030000000023164830054156482219696044921875,
+                    1.8652320000000000010942358130705542862415313720703125
+                ],
+                "end_latlng": [
+                    41.77282600000000201134753297083079814910888671875,
+                    1.87653699999999989955767887295223772525787353515625
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011025570746,
+            "resource_state": 2,
+            "name": "RecT2",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 110,
+            "moving_time": 110,
+            "start_date": "2026-02-22T10:15:49Z",
+            "start_date_local": "2026-02-22T11:15:49Z",
+            "distance": 285.5,
+            "start_index": 4617,
+            "end_index": 4727,
+            "average_cadence": 80.400000000000005684341886080801486968994140625,
+            "device_watts": true,
+            "average_watts": 269.69999999999998863131622783839702606201171875,
+            "average_heartrate": 155.19999999999998863131622783839702606201171875,
+            "max_heartrate": 160,
+            "segment": {
+                "id": 40348858,
+                "resource_state": 2,
+                "name": "RecT2",
+                "activity_type": "Run",
+                "distance": 285.5,
+                "average_grade": 0.6999999999999999555910790149937383830547332763671875,
+                "maximum_grade": 5.29999999999999982236431605997495353221893310546875,
+                "elevation_high": 283,
+                "elevation_low": 281,
+                "start_latlng": [
+                    41.77284900000000078534867498092353343963623046875,
+                    1.8762749999999999150901430766680277884006500244140625
+                ],
+                "end_latlng": [
+                    41.7725420000000013942553778178989887237548828125,
+                    1.8797099999999999919708670859108678996562957763671875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalonia",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011024254906,
+            "resource_state": 2,
+            "name": "Recta C\/Mura - C\/Berga",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 549,
+            "moving_time": 549,
+            "start_date": "2026-02-22T10:18:48Z",
+            "start_date_local": "2026-02-22T11:18:48Z",
+            "distance": 1477.5,
+            "start_index": 4796,
+            "end_index": 5345,
+            "average_cadence": 80,
+            "device_watts": true,
+            "average_watts": 264.30000000000001136868377216160297393798828125,
+            "average_heartrate": 151.5,
+            "max_heartrate": 159,
+            "segment": {
+                "id": 38686087,
+                "resource_state": 2,
+                "name": "Recta C\/Mura - C\/Berga",
+                "activity_type": "Run",
+                "distance": 1477.5,
+                "average_grade": -1.399999999999999911182158029987476766109466552734375,
+                "maximum_grade": 2.600000000000000088817841970012523233890533447265625,
+                "elevation_high": 288.3999999999999772626324556767940521240234375,
+                "elevation_low": 264.6000000000000227373675443232059478759765625,
+                "start_latlng": [
+                    41.77118500000000267391442321240901947021484375,
+                    1.87897200000000008657252692501060664653778076171875
+                ],
+                "end_latlng": [
+                    41.75976800000000110912878881208598613739013671875,
+                    1.869960999999999984311216394416987895965576171875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalonia",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011025059770,
+            "resource_state": 2,
+            "name": "Bon d\u00eda Sr.Mir\u00f3!",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 173,
+            "moving_time": 173,
+            "start_date": "2026-02-22T10:26:07Z",
+            "start_date_local": "2026-02-22T11:26:07Z",
+            "distance": 465,
+            "start_index": 5235,
+            "end_index": 5408,
+            "average_cadence": 80.599999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 264.1000000000000227373675443232059478759765625,
+            "average_heartrate": 151.5,
+            "max_heartrate": 154,
+            "segment": {
+                "id": 37722533,
+                "resource_state": 2,
+                "name": "Bon d\u00eda Sr.Mir\u00f3!",
+                "activity_type": "Run",
+                "distance": 465,
+                "average_grade": -0.90000000000000002220446049250313080847263336181640625,
+                "maximum_grade": 0,
+                "elevation_high": 267.5,
+                "elevation_low": 263.19999999999998863131622783839702606201171875,
+                "start_latlng": [
+                    41.7619940000000013924363884143531322479248046875,
+                    1.8718220000000000968753965935320593416690826416015625
+                ],
+                "end_latlng": [
+                    41.758454000000000405634636990725994110107421875,
+                    1.8689270000000000049311665861750952899456024169921875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalonia",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011025158074,
+            "resource_state": 2,
+            "name": "Ensija",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 376,
+            "moving_time": 376,
+            "start_date": "2026-02-22T10:37:09Z",
+            "start_date_local": "2026-02-22T11:37:09Z",
+            "distance": 973.3999999999999772626324556767940521240234375,
+            "start_index": 5897,
+            "end_index": 6273,
+            "average_cadence": 79.5,
+            "device_watts": true,
+            "average_watts": 285,
+            "average_heartrate": 157,
+            "max_heartrate": 165,
+            "segment": {
+                "id": 17046315,
+                "resource_state": 2,
+                "name": "Ensija",
+                "activity_type": "Run",
+                "distance": 973.3999999999999772626324556767940521240234375,
+                "average_grade": 1.100000000000000088817841970012523233890533447265625,
+                "maximum_grade": 4.0999999999999996447286321199499070644378662109375,
+                "elevation_high": 271.30000000000001136868377216160297393798828125,
+                "elevation_low": 259.80000000000001136868377216160297393798828125,
+                "start_latlng": [
+                    41.76019999999999754436430521309375762939453125,
+                    1.8608109999999999928377292235381901264190673828125
+                ],
+                "end_latlng": [
+                    41.75405099999999691817720304243266582489013671875,
+                    1.852759999999999962483343551866710186004638671875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalu\u00f1a",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011023311802,
+            "resource_state": 2,
+            "name": "Riu D'Or a Agulla",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 657,
+            "moving_time": 657,
+            "start_date": "2026-02-22T10:37:14Z",
+            "start_date_local": "2026-02-22T11:37:14Z",
+            "distance": 1682.700000000000045474735088646411895751953125,
+            "start_index": 5902,
+            "end_index": 6559,
+            "average_cadence": 79.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 288.5,
+            "average_heartrate": 157.80000000000001136868377216160297393798828125,
+            "max_heartrate": 165,
+            "segment": {
+                "id": 11403425,
+                "resource_state": 2,
+                "name": "Riu D'Or a Agulla",
+                "activity_type": "Run",
+                "distance": 1682.700000000000045474735088646411895751953125,
+                "average_grade": 1.600000000000000088817841970012523233890533447265625,
+                "maximum_grade": 5.0999999999999996447286321199499070644378662109375,
+                "elevation_high": 287.8999999999999772626324556767940521240234375,
+                "elevation_low": 259.8999999999999772626324556767940521240234375,
+                "start_latlng": [
+                    41.7601250000000021600499167107045650482177734375,
+                    1.8606149999999999078426071719150058925151824951171875
+                ],
+                "end_latlng": [
+                    41.74871300000000218233253690414130687713623046875,
+                    1.847928000000000015035084288683719933032989501953125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalu\u00f1a",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022220218,
+            "resource_state": 2,
+            "name": "Subida parc de l'Agulla ",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 279,
+            "moving_time": 279,
+            "start_date": "2026-02-22T10:43:43Z",
+            "start_date_local": "2026-02-22T11:43:43Z",
+            "distance": 703.299999999999954525264911353588104248046875,
+            "start_index": 6291,
+            "end_index": 6570,
+            "average_cadence": 80.2000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 291.30000000000001136868377216160297393798828125,
+            "average_heartrate": 158.900000000000005684341886080801486968994140625,
+            "max_heartrate": 165,
+            "segment": {
+                "id": 11557743,
+                "resource_state": 2,
+                "name": "Subida parc de l'Agulla ",
+                "activity_type": "Run",
+                "distance": 703.299999999999954525264911353588104248046875,
+                "average_grade": 1.899999999999999911182158029987476766109466552734375,
+                "maximum_grade": 4.5999999999999996447286321199499070644378662109375,
+                "elevation_high": 287.69999999999998863131622783839702606201171875,
+                "elevation_low": 272.30000000000001136868377216160297393798828125,
+                "start_latlng": [
+                    41.753771000000000412910594604909420013427734375,
+                    1.85243599999999997152144715073518455028533935546875
+                ],
+                "end_latlng": [
+                    41.7484759999999965884853736497461795806884765625,
+                    1.8478870000000000572981662116944789886474609375
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Fruit\u00f3s de Bages",
+                "state": "Catalu\u00f1a",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011025507258,
+            "resource_state": 2,
+            "name": "Ramon a Sant Francesc",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 83,
+            "moving_time": 83,
+            "start_date": "2026-02-22T11:20:28Z",
+            "start_date_local": "2026-02-22T12:20:28Z",
+            "distance": 209.900000000000005684341886080801486968994140625,
+            "start_index": 8496,
+            "end_index": 8579,
+            "average_cadence": 80.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 274.30000000000001136868377216160297393798828125,
+            "average_heartrate": 158.69999999999998863131622783839702606201171875,
+            "max_heartrate": 161,
+            "segment": {
+                "id": 22259986,
+                "resource_state": 2,
+                "name": "Ramon a Sant Francesc",
+                "activity_type": "Run",
+                "distance": 209.900000000000005684341886080801486968994140625,
+                "average_grade": -0.8000000000000000444089209850062616169452667236328125,
+                "maximum_grade": 0,
+                "elevation_high": 323.1000000000000227373675443232059478759765625,
+                "elevation_low": 321.3999999999999772626324556767940521240234375,
+                "start_latlng": [
+                    41.77914200000000022328094928525388240814208984375,
+                    1.8320879999999999387938487416249699890613555908203125
+                ],
+                "end_latlng": [
+                    41.77726700000000192858351510949432849884033203125,
+                    1.831884000000000067842620410374365746974945068359375
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Santpedor",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022524346,
+            "resource_state": 2,
+            "name": "Baixada lladoners",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 835,
+            "moving_time": 833,
+            "start_date": "2026-02-22T11:24:27Z",
+            "start_date_local": "2026-02-22T12:24:27Z",
+            "distance": 2186.1999999999998181010596454143524169921875,
+            "start_index": 8735,
+            "end_index": 9570,
+            "average_cadence": 79.2000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 257.3999999999999772626324556767940521240234375,
+            "average_heartrate": 154,
+            "max_heartrate": 159,
+            "segment": {
+                "id": 14242321,
+                "resource_state": 2,
+                "name": "Baixada lladoners",
+                "activity_type": "Run",
+                "distance": 2186.1999999999998181010596454143524169921875,
+                "average_grade": -1.8000000000000000444089209850062616169452667236328125,
+                "maximum_grade": 2.899999999999999911182158029987476766109466552734375,
+                "elevation_high": 313.69999999999998863131622783839702606201171875,
+                "elevation_low": 275.3999999999999772626324556767940521240234375,
+                "start_latlng": [
+                    41.77529799999999937654138193465769290924072265625,
+                    1.8279959999999999542552586717647500336170196533203125
+                ],
+                "end_latlng": [
+                    41.766964000000001533408067189157009124755859375,
+                    1.8053749999999999520383653361932374536991119384765625
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Santpedor",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022259130,
+            "resource_state": 2,
+            "name": "Mas Mollet",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 158,
+            "moving_time": 158,
+            "start_date": "2026-02-22T11:43:59Z",
+            "start_date_local": "2026-02-22T12:43:59Z",
+            "distance": 407.3999999999999772626324556767940521240234375,
+            "start_index": 9907,
+            "end_index": 10065,
+            "average_cadence": 80.400000000000005684341886080801486968994140625,
+            "device_watts": true,
+            "average_watts": 267.1000000000000227373675443232059478759765625,
+            "average_heartrate": 156.19999999999998863131622783839702606201171875,
+            "max_heartrate": 162,
+            "segment": {
+                "id": 9015043,
+                "resource_state": 2,
+                "name": "Mas Mollet",
+                "activity_type": "Run",
+                "distance": 407.3999999999999772626324556767940521240234375,
+                "average_grade": 0.200000000000000011102230246251565404236316680908203125,
+                "maximum_grade": 2.899999999999999911182158029987476766109466552734375,
+                "elevation_high": 256.8999999999999772626324556767940521240234375,
+                "elevation_low": 253.599999999999994315658113919198513031005859375,
+                "start_latlng": [
+                    41.76304999999999978399500832892954349517822265625,
+                    1.797569999999999890150093051488511264324188232421875
+                ],
+                "end_latlng": [
+                    41.76015300000000252111931331455707550048828125,
+                    1.800475000000000047606363295926712453365325927734375
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Joan de Vilatorrada",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011022363578,
+            "resource_state": 2,
+            "name": "Carretera a Manresa pel riu",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 506,
+            "moving_time": 506,
+            "start_date": "2026-02-22T12:09:34Z",
+            "start_date_local": "2026-02-22T13:09:34Z",
+            "distance": 1314.09999999999990905052982270717620849609375,
+            "start_index": 11442,
+            "end_index": 11948,
+            "average_cadence": 80.5,
+            "device_watts": true,
+            "average_watts": 255.5,
+            "average_heartrate": 159.599999999999994315658113919198513031005859375,
+            "max_heartrate": 171,
+            "segment": {
+                "id": 8235438,
+                "resource_state": 2,
+                "name": "Carretera a Manresa pel riu",
+                "activity_type": "Run",
+                "distance": 1314.09999999999990905052982270717620849609375,
+                "average_grade": -0.90000000000000002220446049250313080847263336181640625,
+                "maximum_grade": 5.5,
+                "elevation_high": 220.80000000000001136868377216160297393798828125,
+                "elevation_low": 207.19999999999998863131622783839702606201171875,
+                "start_latlng": [
+                    41.73918499999999909277903498150408267974853515625,
+                    1.8086249999999999271693695845897309482097625732421875
+                ],
+                "end_latlng": [
+                    41.7302600000000012414602679200470447540283203125,
+                    1.813838000000000061362470660242252051830291748046875
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Sant Joan de Vilatorrada",
+                "state": "Catalonia",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011023260602,
+            "resource_state": 2,
+            "name": "Vora el Riu",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 193,
+            "moving_time": 193,
+            "start_date": "2026-02-22T12:16:28Z",
+            "start_date_local": "2026-02-22T13:16:28Z",
+            "distance": 502.8999999999999772626324556767940521240234375,
+            "start_index": 11856,
+            "end_index": 12049,
+            "average_cadence": 80.7999999999999971578290569595992565155029296875,
+            "device_watts": true,
+            "average_watts": 268.30000000000001136868377216160297393798828125,
+            "average_heartrate": 161,
+            "max_heartrate": 168,
+            "segment": {
+                "id": 11454430,
+                "resource_state": 2,
+                "name": "Vora el Riu",
+                "activity_type": "Run",
+                "distance": 502.8999999999999772626324556767940521240234375,
+                "average_grade": -0,
+                "maximum_grade": 3.79999999999999982236431605997495353221893310546875,
+                "elevation_high": 213.5,
+                "elevation_low": 207.5,
+                "start_latlng": [
+                    41.7323430000000001882654032669961452484130859375,
+                    1.81327499999999997015720509807579219341278076171875
+                ],
+                "end_latlng": [
+                    41.7279750000000007048583938740193843841552734375,
+                    1.8144050000000000455457893622224219143390655517578125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        },
+        {
+            "id": 3460630011021891514,
+            "resource_state": 2,
+            "name": "Pont - Millenium",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 205,
+            "moving_time": 205,
+            "start_date": "2026-02-22T12:20:15Z",
+            "start_date_local": "2026-02-22T13:20:15Z",
+            "distance": 522.3999999999999772626324556767940521240234375,
+            "start_index": 12083,
+            "end_index": 12288,
+            "average_cadence": 79.2999999999999971578290569595992565155029296875,
+            "device_watts": true,
+            "average_watts": 256.69999999999998863131622783839702606201171875,
+            "average_heartrate": 159.400000000000005684341886080801486968994140625,
+            "max_heartrate": 164,
+            "segment": {
+                "id": 31438629,
+                "resource_state": 2,
+                "name": "Pont - Millenium",
+                "activity_type": "Run",
+                "distance": 522.3999999999999772626324556767940521240234375,
+                "average_grade": 0.1000000000000000055511151231257827021181583404541015625,
+                "maximum_grade": 2.600000000000000088817841970012523233890533447265625,
+                "elevation_high": 224.400000000000005684341886080801486968994140625,
+                "elevation_low": 221.19999999999998863131622783839702606201171875,
+                "start_latlng": [
+                    41.72723500000000029785951483063399791717529296875,
+                    1.814556000000000057781335272011347115039825439453125
+                ],
+                "end_latlng": [
+                    41.72269099999999752981238998472690582275390625,
+                    1.81509199999999992769517120905220508575439453125
+                ],
+                "elevation_profile": null,
+                "elevation_profiles": null,
+                "climb_category": 0,
+                "city": "Manresa",
+                "state": "Catalunya",
+                "country": "Spain",
+                "private": false,
+                "hazardous": false,
+                "starred": false
+            },
+            "pr_rank": null,
+            "achievements": [],
+            "visibility": "everyone",
+            "kom_rank": null,
+            "hidden": false
+        }
+    ],
+    "splits_metric": [
+        {
+            "distance": 1000,
+            "elapsed_time": 386,
+            "elevation_difference": -7.79999999999999982236431605997495353221893310546875,
+            "moving_time": 386,
+            "split": 1,
+            "average_speed": 2.589999999999999857891452847979962825775146484375,
+            "average_grade_adjusted_speed": 2.560000000000000053290705182007513940334320068359375,
+            "average_heartrate": 137.893782383419676307312329299747943878173828125,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1000.700000000000045474735088646411895751953125,
+            "elapsed_time": 390,
+            "elevation_difference": -6.4000000000000003552713678800500929355621337890625,
+            "moving_time": 390,
+            "split": 2,
+            "average_speed": 2.569999999999999840127884453977458178997039794921875,
+            "average_grade_adjusted_speed": 2.54999999999999982236431605997495353221893310546875,
+            "average_heartrate": 146.212820512820513840779312886297702789306640625,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1000.8999999999999772626324556767940521240234375,
+            "elapsed_time": 427,
+            "elevation_difference": 35.60000000000000142108547152020037174224853515625,
+            "moving_time": 427,
+            "split": 3,
+            "average_speed": 2.339999999999999857891452847979962825775146484375,
+            "average_grade_adjusted_speed": 2.6699999999999999289457264239899814128875732421875,
+            "average_heartrate": 153.345070422535201259961468167603015899658203125,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999,
+            "elapsed_time": 393,
+            "elevation_difference": 12.4000000000000003552713678800500929355621337890625,
+            "moving_time": 393,
+            "split": 4,
+            "average_speed": 2.54000000000000003552713678800500929355621337890625,
+            "average_grade_adjusted_speed": 2.649999999999999911182158029987476766109466552734375,
+            "average_heartrate": 151.656488549618330807788879610598087310791015625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1001.6000000000000227373675443232059478759765625,
+            "elapsed_time": 421,
+            "elevation_difference": 22.60000000000000142108547152020037174224853515625,
+            "moving_time": 421,
+            "split": 5,
+            "average_speed": 2.37999999999999989341858963598497211933135986328125,
+            "average_grade_adjusted_speed": 2.5800000000000000710542735760100185871124267578125,
+            "average_heartrate": 154.095011876484562662881216965615749359130859375,
+            "pace_zone": 2
+        },
+        {
+            "distance": 999.6000000000000227373675443232059478759765625,
+            "elapsed_time": 407,
+            "elevation_difference": 15.5999999999999996447286321199499070644378662109375,
+            "moving_time": 407,
+            "split": 6,
+            "average_speed": 2.45999999999999996447286321199499070644378662109375,
+            "average_grade_adjusted_speed": 2.660000000000000142108547152020037174224853515625,
+            "average_heartrate": 157.2088452088452186217182315886020660400390625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 998.799999999999954525264911353588104248046875,
+            "elapsed_time": 392,
+            "elevation_difference": 5.4000000000000003552713678800500929355621337890625,
+            "moving_time": 392,
+            "split": 7,
+            "average_speed": 2.54999999999999982236431605997495353221893310546875,
+            "average_grade_adjusted_speed": 2.640000000000000124344978758017532527446746826171875,
+            "average_heartrate": 156.428571428571416390695958398282527923583984375,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1000.700000000000045474735088646411895751953125,
+            "elapsed_time": 375,
+            "elevation_difference": -6,
+            "moving_time": 370,
+            "split": 8,
+            "average_speed": 2.70000000000000017763568394002504646778106689453125,
+            "average_grade_adjusted_speed": 2.70000000000000017763568394002504646778106689453125,
+            "average_heartrate": 155.494594594594587988467537797987461090087890625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1000.8999999999999772626324556767940521240234375,
+            "elapsed_time": 358,
+            "elevation_difference": -16.199999999999999289457264239899814128875732421875,
+            "moving_time": 358,
+            "split": 9,
+            "average_speed": 2.79999999999999982236431605997495353221893310546875,
+            "average_grade_adjusted_speed": 2.729999999999999982236431605997495353221893310546875,
+            "average_heartrate": 156.790502793296099071085336618125438690185546875,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999.6000000000000227373675443232059478759765625,
+            "elapsed_time": 383,
+            "elevation_difference": -0.200000000000000011102230246251565404236316680908203125,
+            "moving_time": 383,
+            "split": 10,
+            "average_speed": 2.609999999999999875655021241982467472553253173828125,
+            "average_grade_adjusted_speed": 2.649999999999999911182158029987476766109466552734375,
+            "average_heartrate": 154.502631578947358548248303122818470001220703125,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1000.200000000000045474735088646411895751953125,
+            "elapsed_time": 381,
+            "elevation_difference": 4.20000000000000017763568394002504646778106689453125,
+            "moving_time": 381,
+            "split": 11,
+            "average_speed": 2.62999999999999989341858963598497211933135986328125,
+            "average_grade_adjusted_speed": 2.6699999999999999289457264239899814128875732421875,
+            "average_heartrate": 157.20472440944882919211522676050662994384765625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999.700000000000045474735088646411895751953125,
+            "elapsed_time": 387,
+            "elevation_difference": 11.4000000000000003552713678800500929355621337890625,
+            "moving_time": 387,
+            "split": 12,
+            "average_speed": 2.5800000000000000710542735760100185871124267578125,
+            "average_grade_adjusted_speed": 2.6699999999999999289457264239899814128875732421875,
+            "average_heartrate": 156.18863049095608630523202009499073028564453125,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999.299999999999954525264911353588104248046875,
+            "elapsed_time": 375,
+            "elevation_difference": -8.800000000000000710542735760100185871124267578125,
+            "moving_time": 375,
+            "split": 13,
+            "average_speed": 2.660000000000000142108547152020037174224853515625,
+            "average_grade_adjusted_speed": 2.640000000000000124344978758017532527446746826171875,
+            "average_heartrate": 152.146666666666675382657558657228946685791015625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999.799999999999954525264911353588104248046875,
+            "elapsed_time": 371,
+            "elevation_difference": -12.199999999999999289457264239899814128875732421875,
+            "moving_time": 371,
+            "split": 14,
+            "average_speed": 2.689999999999999946709294817992486059665679931640625,
+            "average_grade_adjusted_speed": 2.62999999999999989341858963598497211933135986328125,
+            "average_heartrate": 151.401617250673865555654629133641719818115234375,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1001.799999999999954525264911353588104248046875,
+            "elapsed_time": 376,
+            "elevation_difference": 3.600000000000000088817841970012523233890533447265625,
+            "moving_time": 376,
+            "split": 15,
+            "average_speed": 2.660000000000000142108547152020037174224853515625,
+            "average_grade_adjusted_speed": 2.720000000000000195399252334027551114559173583984375,
+            "average_heartrate": 155.46010638297872219482087530195713043212890625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999,
+            "elapsed_time": 386,
+            "elevation_difference": 4.4000000000000003552713678800500929355621337890625,
+            "moving_time": 386,
+            "split": 16,
+            "average_speed": 2.589999999999999857891452847979962825775146484375,
+            "average_grade_adjusted_speed": 2.649999999999999911182158029987476766109466552734375,
+            "average_heartrate": 155.810880829015530935066635720431804656982421875,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999.700000000000045474735088646411895751953125,
+            "elapsed_time": 402,
+            "elevation_difference": 19.39999999999999857891452847979962825775146484375,
+            "moving_time": 395,
+            "split": 17,
+            "average_speed": 2.529999999999999804600747665972448885440826416015625,
+            "average_grade_adjusted_speed": 2.720000000000000195399252334027551114559173583984375,
+            "average_heartrate": 158.81265822784808960932423360645771026611328125,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999.299999999999954525264911353588104248046875,
+            "elapsed_time": 388,
+            "elevation_difference": 13.5999999999999996447286321199499070644378662109375,
+            "moving_time": 385,
+            "split": 18,
+            "average_speed": 2.600000000000000088817841970012523233890533447265625,
+            "average_grade_adjusted_speed": 2.70999999999999996447286321199499070644378662109375,
+            "average_heartrate": 159.25,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1001.8999999999999772626324556767940521240234375,
+            "elapsed_time": 382,
+            "elevation_difference": 6.5999999999999996447286321199499070644378662109375,
+            "moving_time": 382,
+            "split": 19,
+            "average_speed": 2.62000000000000010658141036401502788066864013671875,
+            "average_grade_adjusted_speed": 2.70000000000000017763568394002504646778106689453125,
+            "average_heartrate": 158.170157068062820826526149176061153411865234375,
+            "pace_zone": 3
+        },
+        {
+            "distance": 997.799999999999954525264911353588104248046875,
+            "elapsed_time": 375,
+            "elevation_difference": -9.199999999999999289457264239899814128875732421875,
+            "moving_time": 375,
+            "split": 20,
+            "average_speed": 2.660000000000000142108547152020037174224853515625,
+            "average_grade_adjusted_speed": 2.62000000000000010658141036401502788066864013671875,
+            "average_heartrate": 155.159999999999996589394868351519107818603515625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1000,
+            "elapsed_time": 387,
+            "elevation_difference": 7.4000000000000003552713678800500929355621337890625,
+            "moving_time": 387,
+            "split": 21,
+            "average_speed": 2.5800000000000000710542735760100185871124267578125,
+            "average_grade_adjusted_speed": 2.640000000000000124344978758017532527446746826171875,
+            "average_heartrate": 156.5193798449612359036109410226345062255859375,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1001.3999999999999772626324556767940521240234375,
+            "elapsed_time": 393,
+            "elevation_difference": 18.60000000000000142108547152020037174224853515625,
+            "moving_time": 393,
+            "split": 22,
+            "average_speed": 2.54999999999999982236431605997495353221893310546875,
+            "average_grade_adjusted_speed": 2.70000000000000017763568394002504646778106689453125,
+            "average_heartrate": 158.50636132315520399060915224254131317138671875,
+            "pace_zone": 3
+        },
+        {
+            "distance": 999.5,
+            "elapsed_time": 379,
+            "elevation_difference": -15.4000000000000003552713678800500929355621337890625,
+            "moving_time": 379,
+            "split": 23,
+            "average_speed": 2.640000000000000124344978758017532527446746826171875,
+            "average_grade_adjusted_speed": 2.560000000000000053290705182007513940334320068359375,
+            "average_heartrate": 154.572559366754603615845553576946258544921875,
+            "pace_zone": 2
+        },
+        {
+            "distance": 999.5,
+            "elapsed_time": 384,
+            "elevation_difference": -14.199999999999999289457264239899814128875732421875,
+            "moving_time": 384,
+            "split": 24,
+            "average_speed": 2.600000000000000088817841970012523233890533447265625,
+            "average_grade_adjusted_speed": 2.529999999999999804600747665972448885440826416015625,
+            "average_heartrate": 154.484375,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1000.3999999999999772626324556767940521240234375,
+            "elapsed_time": 374,
+            "elevation_difference": -21.800000000000000710542735760100185871124267578125,
+            "moving_time": 374,
+            "split": 25,
+            "average_speed": 2.6699999999999999289457264239899814128875732421875,
+            "average_grade_adjusted_speed": 2.569999999999999840127884453977458178997039794921875,
+            "average_heartrate": 153.663978494623648884953581728041172027587890625,
+            "pace_zone": 2
+        },
+        {
+            "distance": 999.6000000000000227373675443232059478759765625,
+            "elapsed_time": 378,
+            "elevation_difference": -13.199999999999999289457264239899814128875732421875,
+            "moving_time": 378,
+            "split": 26,
+            "average_speed": 2.640000000000000124344978758017532527446746826171875,
+            "average_grade_adjusted_speed": 2.600000000000000088817841970012523233890533447265625,
+            "average_heartrate": 156.28571428571427759379730559885501861572265625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1000,
+            "elapsed_time": 402,
+            "elevation_difference": -3.20000000000000017763568394002504646778106689453125,
+            "moving_time": 402,
+            "split": 27,
+            "average_speed": 2.4900000000000002131628207280300557613372802734375,
+            "average_grade_adjusted_speed": 2.54000000000000003552713678800500929355621337890625,
+            "average_heartrate": 157.875621890547250814051949419081211090087890625,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1001.700000000000045474735088646411895751953125,
+            "elapsed_time": 397,
+            "elevation_difference": -31.39999999999999857891452847979962825775146484375,
+            "moving_time": 382,
+            "split": 28,
+            "average_speed": 2.62000000000000010658141036401502788066864013671875,
+            "average_grade_adjusted_speed": 2.589999999999999857891452847979962825775146484375,
+            "average_heartrate": 156.24933687002652504816069267690181732177734375,
+            "pace_zone": 3
+        },
+        {
+            "distance": 998.8999999999999772626324556767940521240234375,
+            "elapsed_time": 394,
+            "elevation_difference": -6.4000000000000003552713678800500929355621337890625,
+            "moving_time": 394,
+            "split": 29,
+            "average_speed": 2.54000000000000003552713678800500929355621337890625,
+            "average_grade_adjusted_speed": 2.520000000000000017763568394002504646778106689453125,
+            "average_heartrate": 158.15989847715735550082172267138957977294921875,
+            "pace_zone": 2
+        },
+        {
+            "distance": 998.700000000000045474735088646411895751953125,
+            "elapsed_time": 387,
+            "elevation_difference": -5.4000000000000003552713678800500929355621337890625,
+            "moving_time": 387,
+            "split": 30,
+            "average_speed": 2.5800000000000000710542735760100185871124267578125,
+            "average_grade_adjusted_speed": 2.5800000000000000710542735760100185871124267578125,
+            "average_heartrate": 160.317829457364354084347723983228206634521484375,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1000.3999999999999772626324556767940521240234375,
+            "elapsed_time": 398,
+            "elevation_difference": -0.40000000000000002220446049250313080847263336181640625,
+            "moving_time": 398,
+            "split": 31,
+            "average_speed": 2.5099999999999997868371792719699442386627197265625,
+            "average_grade_adjusted_speed": 2.54000000000000003552713678800500929355621337890625,
+            "average_heartrate": 159.6180904522612991058849729597568511962890625,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1001.799999999999954525264911353588104248046875,
+            "elapsed_time": 392,
+            "elevation_difference": 1,
+            "moving_time": 392,
+            "split": 32,
+            "average_speed": 2.560000000000000053290705182007513940334320068359375,
+            "average_grade_adjusted_speed": 2.5800000000000000710542735760100185871124267578125,
+            "average_heartrate": 159.93112244897957907596719451248645782470703125,
+            "pace_zone": 2
+        },
+        {
+            "distance": 16.89999999999999857891452847979962825775146484375,
+            "elapsed_time": 7,
+            "elevation_difference": -0.200000000000000011102230246251565404236316680908203125,
+            "moving_time": 7,
+            "split": 33,
+            "average_speed": 2.410000000000000142108547152020037174224853515625,
+            "average_grade_adjusted_speed": 2.439999999999999946709294817992486059665679931640625,
+            "average_heartrate": 163.571428571428583609304041601717472076416015625,
+            "pace_zone": 2
+        }
+    ],
+    "splits_standard": [
+        {
+            "distance": 1610.5,
+            "elapsed_time": 626,
+            "elevation_difference": -11.4000000000000003552713678800500929355621337890625,
+            "moving_time": 626,
+            "split": 1,
+            "average_speed": 2.569999999999999840127884453977458178997039794921875,
+            "average_grade_adjusted_speed": 2.54999999999999982236431605997495353221893310546875,
+            "average_heartrate": 140.9073482428115084985620342195034027099609375,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1608.90000000000009094947017729282379150390625,
+            "elapsed_time": 665,
+            "elevation_difference": 37.39999999999999857891452847979962825775146484375,
+            "moving_time": 665,
+            "split": 2,
+            "average_speed": 2.4199999999999999289457264239899814128875732421875,
+            "average_grade_adjusted_speed": 2.640000000000000124344978758017532527446746826171875,
+            "average_heartrate": 151.801204819277103297281428240239620208740234375,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1610.59999999999990905052982270717620849609375,
+            "elapsed_time": 655,
+            "elevation_difference": 26.199999999999999289457264239899814128875732421875,
+            "moving_time": 655,
+            "split": 3,
+            "average_speed": 2.45999999999999996447286321199499070644378662109375,
+            "average_grade_adjusted_speed": 2.609999999999999875655021241982467472553253173828125,
+            "average_heartrate": 152.71297709923663887821021489799022674560546875,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1607.5,
+            "elapsed_time": 645,
+            "elevation_difference": 18.199999999999999289457264239899814128875732421875,
+            "moving_time": 645,
+            "split": 4,
+            "average_speed": 2.4900000000000002131628207280300557613372802734375,
+            "average_grade_adjusted_speed": 2.649999999999999911182158029987476766109466552734375,
+            "average_heartrate": 156.74108527131784285302273929119110107421875,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1611.700000000000045474735088646411895751953125,
+            "elapsed_time": 617,
+            "elevation_difference": -0.8000000000000000444089209850062616169452667236328125,
+            "moving_time": 612,
+            "split": 5,
+            "average_speed": 2.62999999999999989341858963598497211933135986328125,
+            "average_grade_adjusted_speed": 2.6699999999999999289457264239899814128875732421875,
+            "average_heartrate": 155.866013071895423536261660046875476837158203125,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1609,
+            "elapsed_time": 587,
+            "elevation_difference": -23.199999999999999289457264239899814128875732421875,
+            "moving_time": 587,
+            "split": 6,
+            "average_speed": 2.7400000000000002131628207280300557613372802734375,
+            "average_grade_adjusted_speed": 2.680000000000000159872115546022541821002960205078125,
+            "average_heartrate": 155.320272572402046762363170273602008819580078125,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1608.5,
+            "elapsed_time": 619,
+            "elevation_difference": 15.199999999999999289457264239899814128875732421875,
+            "moving_time": 619,
+            "split": 7,
+            "average_speed": 2.600000000000000088817841970012523233890533447265625,
+            "average_grade_adjusted_speed": 2.689999999999999946709294817992486059665679931640625,
+            "average_heartrate": 156.922077922077932043976034037768840789794921875,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1609.90000000000009094947017729282379150390625,
+            "elapsed_time": 616,
+            "elevation_difference": 3.79999999999999982236431605997495353221893310546875,
+            "moving_time": 616,
+            "split": 8,
+            "average_speed": 2.609999999999999875655021241982467472553253173828125,
+            "average_grade_adjusted_speed": 2.649999999999999911182158029987476766109466552734375,
+            "average_heartrate": 154.5162337662337677102186717092990875244140625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1609,
+            "elapsed_time": 605,
+            "elevation_difference": -7.4000000000000003552713678800500929355621337890625,
+            "moving_time": 605,
+            "split": 9,
+            "average_speed": 2.660000000000000142108547152020037174224853515625,
+            "average_grade_adjusted_speed": 2.660000000000000142108547152020037174224853515625,
+            "average_heartrate": 152.33057851239669844289892353117465972900390625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1610.200000000000045474735088646411895751953125,
+            "elapsed_time": 611,
+            "elevation_difference": 2.600000000000000088817841970012523233890533447265625,
+            "moving_time": 611,
+            "split": 10,
+            "average_speed": 2.640000000000000124344978758017532527446746826171875,
+            "average_grade_adjusted_speed": 2.680000000000000159872115546022541821002960205078125,
+            "average_heartrate": 155.76595744680849975338787771761417388916015625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1609.5,
+            "elapsed_time": 638,
+            "elevation_difference": 26.800000000000000710542735760100185871124267578125,
+            "moving_time": 628,
+            "split": 11,
+            "average_speed": 2.560000000000000053290705182007513940334320068359375,
+            "average_grade_adjusted_speed": 2.720000000000000195399252334027551114559173583984375,
+            "average_heartrate": 159.240829346092510832022526301443576812744140625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1607.59999999999990905052982270717620849609375,
+            "elapsed_time": 611,
+            "elevation_difference": 5.79999999999999982236431605997495353221893310546875,
+            "moving_time": 611,
+            "split": 12,
+            "average_speed": 2.62999999999999989341858963598497211933135986328125,
+            "average_grade_adjusted_speed": 2.680000000000000159872115546022541821002960205078125,
+            "average_heartrate": 157.507364975450087740682647563517093658447265625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1611.09999999999990905052982270717620849609375,
+            "elapsed_time": 618,
+            "elevation_difference": 1.600000000000000088817841970012523233890533447265625,
+            "moving_time": 618,
+            "split": 13,
+            "average_speed": 2.609999999999999875655021241982467472553253173828125,
+            "average_grade_adjusted_speed": 2.62999999999999989341858963598497211933135986328125,
+            "average_heartrate": 156.048543689320382554797106422483921051025390625,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1608.40000000000009094947017729282379150390625,
+            "elapsed_time": 621,
+            "elevation_difference": 10.5999999999999996447286321199499070644378662109375,
+            "moving_time": 621,
+            "split": 14,
+            "average_speed": 2.589999999999999857891452847979962825775146484375,
+            "average_grade_adjusted_speed": 2.660000000000000142108547152020037174224853515625,
+            "average_heartrate": 157.4428341384863188068266026675701141357421875,
+            "pace_zone": 3
+        },
+        {
+            "distance": 1609.799999999999954525264911353588104248046875,
+            "elapsed_time": 619,
+            "elevation_difference": -22.199999999999999289457264239899814128875732421875,
+            "moving_time": 619,
+            "split": 15,
+            "average_speed": 2.600000000000000088817841970012523233890533447265625,
+            "average_grade_adjusted_speed": 2.529999999999999804600747665972448885440826416015625,
+            "average_heartrate": 154.150242326332801212629419751465320587158203125,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1608.700000000000045474735088646411895751953125,
+            "elapsed_time": 600,
+            "elevation_difference": -35.39999999999999857891452847979962825775146484375,
+            "moving_time": 600,
+            "split": 16,
+            "average_speed": 2.680000000000000159872115546022541821002960205078125,
+            "average_grade_adjusted_speed": 2.5800000000000000710542735760100185871124267578125,
+            "average_heartrate": 154.908026755852830547155463136732578277587890625,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1609.299999999999954525264911353588104248046875,
+            "elapsed_time": 636,
+            "elevation_difference": -12.199999999999999289457264239899814128875732421875,
+            "moving_time": 636,
+            "split": 17,
+            "average_speed": 2.529999999999999804600747665972448885440826416015625,
+            "average_grade_adjusted_speed": 2.560000000000000053290705182007513940334320068359375,
+            "average_heartrate": 157.9921383647798620586399920284748077392578125,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1608.40000000000009094947017729282379150390625,
+            "elapsed_time": 640,
+            "elevation_difference": -28.39999999999999857891452847979962825775146484375,
+            "moving_time": 625,
+            "split": 18,
+            "average_speed": 2.569999999999999840127884453977458178997039794921875,
+            "average_grade_adjusted_speed": 2.54000000000000003552713678800500929355621337890625,
+            "average_heartrate": 156.732258064516116746744955889880657196044921875,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1611.40000000000009094947017729282379150390625,
+            "elapsed_time": 636,
+            "elevation_difference": -5.20000000000000017763568394002504646778106689453125,
+            "moving_time": 636,
+            "split": 19,
+            "average_speed": 2.529999999999999804600747665972448885440826416015625,
+            "average_grade_adjusted_speed": 2.54999999999999982236431605997495353221893310546875,
+            "average_heartrate": 159.5896226415094361072988249361515045166015625,
+            "pace_zone": 2
+        },
+        {
+            "distance": 1439.09999999999990905052982270717620849609375,
+            "elapsed_time": 562,
+            "elevation_difference": 1.399999999999999911182158029987476766109466552734375,
+            "moving_time": 562,
+            "split": 20,
+            "average_speed": 2.560000000000000053290705182007513940334320068359375,
+            "average_grade_adjusted_speed": 2.5800000000000000710542735760100185871124267578125,
+            "average_heartrate": 160.3434163701067518559284508228302001953125,
+            "pace_zone": 2
+        }
+    ],
+    "laps": [
+        {
+            "id": 62470930199,
+            "resource_state": 2,
+            "name": "Lap 1",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 387,
+            "moving_time": 387,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 1000,
+            "average_speed": 2.5800000000000000710542735760100185871124267578125,
+            "max_speed": 3.100000000000000088817841970012523233890533447265625,
+            "lap_index": 1,
+            "split": 1,
+            "start_index": 0,
+            "end_index": 387,
+            "total_elevation_gain": 0,
+            "average_cadence": 81.5,
+            "device_watts": true,
+            "average_watts": 254.5,
+            "average_heartrate": 137.900000000000005684341886080801486968994140625,
+            "max_heartrate": 146,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930218,
+            "resource_state": 2,
+            "name": "Lap 2",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 389,
+            "moving_time": 389,
+            "start_date": "2026-02-22T09:05:20Z",
+            "start_date_local": "2026-02-22T10:05:20Z",
+            "distance": 1000,
+            "average_speed": 2.569999999999999840127884453977458178997039794921875,
+            "max_speed": 3.100000000000000088817841970012523233890533447265625,
+            "lap_index": 2,
+            "split": 2,
+            "start_index": 388,
+            "end_index": 777,
+            "total_elevation_gain": 0,
+            "average_cadence": 81.2000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 255.099999999999994315658113919198513031005859375,
+            "average_heartrate": 146.19999999999998863131622783839702606201171875,
+            "max_heartrate": 151,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930237,
+            "resource_state": 2,
+            "name": "Lap 3",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 426,
+            "moving_time": 426,
+            "start_date": "2026-02-22T09:11:50Z",
+            "start_date_local": "2026-02-22T10:11:50Z",
+            "distance": 1000,
+            "average_speed": 2.350000000000000088817841970012523233890533447265625,
+            "max_speed": 4,
+            "lap_index": 3,
+            "split": 3,
+            "start_index": 778,
+            "end_index": 1204,
+            "total_elevation_gain": 36.60000000000000142108547152020037174224853515625,
+            "average_cadence": 81.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 289.8999999999999772626324556767940521240234375,
+            "average_heartrate": 153.400000000000005684341886080801486968994140625,
+            "max_heartrate": 160,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930255,
+            "resource_state": 2,
+            "name": "Lap 4",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 393,
+            "moving_time": 393,
+            "start_date": "2026-02-22T09:18:57Z",
+            "start_date_local": "2026-02-22T10:18:57Z",
+            "distance": 1000,
+            "average_speed": 2.54000000000000003552713678800500929355621337890625,
+            "max_speed": 4,
+            "lap_index": 4,
+            "split": 4,
+            "start_index": 1205,
+            "end_index": 1597,
+            "total_elevation_gain": 14.4000000000000003552713678800500929355621337890625,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 278.6000000000000227373675443232059478759765625,
+            "average_heartrate": 151.69999999999998863131622783839702606201171875,
+            "max_heartrate": 157,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930269,
+            "resource_state": 2,
+            "name": "Lap 5",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 420,
+            "moving_time": 420,
+            "start_date": "2026-02-22T09:25:30Z",
+            "start_date_local": "2026-02-22T10:25:30Z",
+            "distance": 1000,
+            "average_speed": 2.37999999999999989341858963598497211933135986328125,
+            "max_speed": 3.060000000000000053290705182007513940334320068359375,
+            "lap_index": 5,
+            "split": 5,
+            "start_index": 1598,
+            "end_index": 2018,
+            "total_elevation_gain": 25.60000000000000142108547152020037174224853515625,
+            "average_cadence": 80.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 277.5,
+            "average_heartrate": 154.099999999999994315658113919198513031005859375,
+            "max_heartrate": 158,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930288,
+            "resource_state": 2,
+            "name": "Lap 6",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 407,
+            "moving_time": 407,
+            "start_date": "2026-02-22T09:32:31Z",
+            "start_date_local": "2026-02-22T10:32:31Z",
+            "distance": 1000,
+            "average_speed": 2.45999999999999996447286321199499070644378662109375,
+            "max_speed": 3.020000000000000017763568394002504646778106689453125,
+            "lap_index": 6,
+            "split": 6,
+            "start_index": 2019,
+            "end_index": 2425,
+            "total_elevation_gain": 23,
+            "average_cadence": 81.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 283.19999999999998863131622783839702606201171875,
+            "average_heartrate": 157.19999999999998863131622783839702606201171875,
+            "max_heartrate": 163,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930311,
+            "resource_state": 2,
+            "name": "Lap 7",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 392,
+            "moving_time": 392,
+            "start_date": "2026-02-22T09:39:18Z",
+            "start_date_local": "2026-02-22T10:39:18Z",
+            "distance": 1000,
+            "average_speed": 2.54999999999999982236431605997495353221893310546875,
+            "max_speed": 2.939999999999999946709294817992486059665679931640625,
+            "lap_index": 7,
+            "split": 7,
+            "start_index": 2426,
+            "end_index": 2817,
+            "total_elevation_gain": 13,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 275.19999999999998863131622783839702606201171875,
+            "average_heartrate": 156.400000000000005684341886080801486968994140625,
+            "max_heartrate": 161,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930333,
+            "resource_state": 2,
+            "name": "Lap 8",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 374,
+            "moving_time": 374,
+            "start_date": "2026-02-22T09:45:50Z",
+            "start_date_local": "2026-02-22T10:45:50Z",
+            "distance": 1000,
+            "average_speed": 2.6699999999999999289457264239899814128875732421875,
+            "max_speed": 3.0800000000000000710542735760100185871124267578125,
+            "lap_index": 8,
+            "split": 8,
+            "start_index": 2818,
+            "end_index": 3192,
+            "total_elevation_gain": 3.79999999999999982236431605997495353221893310546875,
+            "average_cadence": 81.400000000000005684341886080801486968994140625,
+            "device_watts": true,
+            "average_watts": 269.30000000000001136868377216160297393798828125,
+            "average_heartrate": 155.5,
+            "max_heartrate": 160,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930357,
+            "resource_state": 2,
+            "name": "Lap 9",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 357,
+            "moving_time": 357,
+            "start_date": "2026-02-22T09:52:05Z",
+            "start_date_local": "2026-02-22T10:52:05Z",
+            "distance": 1000,
+            "average_speed": 2.79999999999999982236431605997495353221893310546875,
+            "max_speed": 3.180000000000000159872115546022541821002960205078125,
+            "lap_index": 9,
+            "split": 9,
+            "start_index": 3193,
+            "end_index": 3550,
+            "total_elevation_gain": 4,
+            "average_cadence": 82.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 273.5,
+            "average_heartrate": 156.80000000000001136868377216160297393798828125,
+            "max_heartrate": 163,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930383,
+            "resource_state": 2,
+            "name": "Lap 10",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 383,
+            "moving_time": 383,
+            "start_date": "2026-02-22T09:58:03Z",
+            "start_date_local": "2026-02-22T10:58:03Z",
+            "distance": 1000,
+            "average_speed": 2.609999999999999875655021241982467472553253173828125,
+            "max_speed": 3.54000000000000003552713678800500929355621337890625,
+            "lap_index": 10,
+            "split": 10,
+            "start_index": 3551,
+            "end_index": 3933,
+            "total_elevation_gain": 9.4000000000000003552713678800500929355621337890625,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 268.69999999999998863131622783839702606201171875,
+            "average_heartrate": 154.5,
+            "max_heartrate": 162,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930406,
+            "resource_state": 2,
+            "name": "Lap 11",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 381,
+            "moving_time": 381,
+            "start_date": "2026-02-22T10:04:26Z",
+            "start_date_local": "2026-02-22T11:04:26Z",
+            "distance": 1000,
+            "average_speed": 2.62000000000000010658141036401502788066864013671875,
+            "max_speed": 2.87999999999999989341858963598497211933135986328125,
+            "lap_index": 11,
+            "split": 11,
+            "start_index": 3934,
+            "end_index": 4314,
+            "total_elevation_gain": 5,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 273.5,
+            "average_heartrate": 157.19999999999998863131622783839702606201171875,
+            "max_heartrate": 162,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930428,
+            "resource_state": 2,
+            "name": "Lap 12",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 386,
+            "moving_time": 386,
+            "start_date": "2026-02-22T10:10:47Z",
+            "start_date_local": "2026-02-22T11:10:47Z",
+            "distance": 1000,
+            "average_speed": 2.589999999999999857891452847979962825775146484375,
+            "max_speed": 2.939999999999999946709294817992486059665679931640625,
+            "lap_index": 12,
+            "split": 12,
+            "start_index": 4315,
+            "end_index": 4701,
+            "total_elevation_gain": 11.4000000000000003552713678800500929355621337890625,
+            "average_cadence": 80.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 280.1000000000000227373675443232059478759765625,
+            "average_heartrate": 156.19999999999998863131622783839702606201171875,
+            "max_heartrate": 161,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930445,
+            "resource_state": 2,
+            "name": "Lap 13",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 375,
+            "moving_time": 375,
+            "start_date": "2026-02-22T10:17:14Z",
+            "start_date_local": "2026-02-22T11:17:14Z",
+            "distance": 1000,
+            "average_speed": 2.6699999999999999289457264239899814128875732421875,
+            "max_speed": 3.0800000000000000710542735760100185871124267578125,
+            "lap_index": 13,
+            "split": 13,
+            "start_index": 4702,
+            "end_index": 5076,
+            "total_elevation_gain": 6.5999999999999996447286321199499070644378662109375,
+            "average_cadence": 80.5,
+            "device_watts": true,
+            "average_watts": 266.69999999999998863131622783839702606201171875,
+            "average_heartrate": 152.099999999999994315658113919198513031005859375,
+            "max_heartrate": 159,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930459,
+            "resource_state": 2,
+            "name": "Lap 14",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 371,
+            "moving_time": 371,
+            "start_date": "2026-02-22T10:23:29Z",
+            "start_date_local": "2026-02-22T11:23:29Z",
+            "distance": 1000,
+            "average_speed": 2.70000000000000017763568394002504646778106689453125,
+            "max_speed": 3,
+            "lap_index": 14,
+            "split": 14,
+            "start_index": 5077,
+            "end_index": 5447,
+            "total_elevation_gain": 0,
+            "average_cadence": 80.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 266.6000000000000227373675443232059478759765625,
+            "average_heartrate": 151.400000000000005684341886080801486968994140625,
+            "max_heartrate": 155,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930479,
+            "resource_state": 2,
+            "name": "Lap 15",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 375,
+            "moving_time": 375,
+            "start_date": "2026-02-22T10:29:40Z",
+            "start_date_local": "2026-02-22T11:29:40Z",
+            "distance": 1000,
+            "average_speed": 2.6699999999999999289457264239899814128875732421875,
+            "max_speed": 3.7599999999999997868371792719699442386627197265625,
+            "lap_index": 15,
+            "split": 15,
+            "start_index": 5448,
+            "end_index": 5823,
+            "total_elevation_gain": 9,
+            "average_cadence": 80.599999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 285.8999999999999772626324556767940521240234375,
+            "average_heartrate": 155.5,
+            "max_heartrate": 161,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930499,
+            "resource_state": 2,
+            "name": "Lap 16",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 386,
+            "moving_time": 386,
+            "start_date": "2026-02-22T10:35:56Z",
+            "start_date_local": "2026-02-22T11:35:56Z",
+            "distance": 1000,
+            "average_speed": 2.589999999999999857891452847979962825775146484375,
+            "max_speed": 3.2400000000000002131628207280300557613372802734375,
+            "lap_index": 16,
+            "split": 16,
+            "start_index": 5824,
+            "end_index": 6209,
+            "total_elevation_gain": 9.800000000000000710542735760100185871124267578125,
+            "average_cadence": 79.5,
+            "device_watts": true,
+            "average_watts": 276.6000000000000227373675443232059478759765625,
+            "average_heartrate": 155.80000000000001136868377216160297393798828125,
+            "max_heartrate": 165,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930515,
+            "resource_state": 2,
+            "name": "Lap 17",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 402,
+            "moving_time": 402,
+            "start_date": "2026-02-22T10:42:22Z",
+            "start_date_local": "2026-02-22T11:42:22Z",
+            "distance": 1000,
+            "average_speed": 2.4900000000000002131628207280300557613372802734375,
+            "max_speed": 2.859999999999999875655021241982467472553253173828125,
+            "lap_index": 17,
+            "split": 17,
+            "start_index": 6210,
+            "end_index": 6611,
+            "total_elevation_gain": 22.800000000000000710542735760100185871124267578125,
+            "average_cadence": 80.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 288.8999999999999772626324556767940521240234375,
+            "average_heartrate": 158.80000000000001136868377216160297393798828125,
+            "max_heartrate": 165,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930531,
+            "resource_state": 2,
+            "name": "Lap 18",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 388,
+            "moving_time": 388,
+            "start_date": "2026-02-22T10:49:04Z",
+            "start_date_local": "2026-02-22T11:49:04Z",
+            "distance": 1000,
+            "average_speed": 2.5800000000000000710542735760100185871124267578125,
+            "max_speed": 3.020000000000000017763568394002504646778106689453125,
+            "lap_index": 18,
+            "split": 18,
+            "start_index": 6612,
+            "end_index": 6999,
+            "total_elevation_gain": 13.4000000000000003552713678800500929355621337890625,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 291.30000000000001136868377216160297393798828125,
+            "average_heartrate": 159.30000000000001136868377216160297393798828125,
+            "max_heartrate": 168,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930547,
+            "resource_state": 2,
+            "name": "Lap 19",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 381,
+            "moving_time": 381,
+            "start_date": "2026-02-22T10:55:32Z",
+            "start_date_local": "2026-02-22T11:55:32Z",
+            "distance": 1000,
+            "average_speed": 2.62000000000000010658141036401502788066864013671875,
+            "max_speed": 3.060000000000000053290705182007513940334320068359375,
+            "lap_index": 19,
+            "split": 19,
+            "start_index": 7000,
+            "end_index": 7381,
+            "total_elevation_gain": 10.5999999999999996447286321199499070644378662109375,
+            "average_cadence": 80.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 280,
+            "average_heartrate": 158.099999999999994315658113919198513031005859375,
+            "max_heartrate": 163,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930566,
+            "resource_state": 2,
+            "name": "Lap 20",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 375,
+            "moving_time": 375,
+            "start_date": "2026-02-22T11:01:54Z",
+            "start_date_local": "2026-02-22T12:01:54Z",
+            "distance": 1000,
+            "average_speed": 2.6699999999999999289457264239899814128875732421875,
+            "max_speed": 3.060000000000000053290705182007513940334320068359375,
+            "lap_index": 20,
+            "split": 20,
+            "start_index": 7382,
+            "end_index": 7756,
+            "total_elevation_gain": 0,
+            "average_cadence": 80.599999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 266.80000000000001136868377216160297393798828125,
+            "average_heartrate": 155.19999999999998863131622783839702606201171875,
+            "max_heartrate": 160,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930579,
+            "resource_state": 2,
+            "name": "Lap 21",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 387,
+            "moving_time": 387,
+            "start_date": "2026-02-22T11:08:09Z",
+            "start_date_local": "2026-02-22T12:08:09Z",
+            "distance": 1000,
+            "average_speed": 2.5800000000000000710542735760100185871124267578125,
+            "max_speed": 3,
+            "lap_index": 21,
+            "split": 21,
+            "start_index": 7757,
+            "end_index": 8143,
+            "total_elevation_gain": 7.4000000000000003552713678800500929355621337890625,
+            "average_cadence": 80.2000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 273.69999999999998863131622783839702606201171875,
+            "average_heartrate": 156.5,
+            "max_heartrate": 160,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930592,
+            "resource_state": 2,
+            "name": "Lap 22",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 392,
+            "moving_time": 392,
+            "start_date": "2026-02-22T11:14:36Z",
+            "start_date_local": "2026-02-22T12:14:36Z",
+            "distance": 1000,
+            "average_speed": 2.54999999999999982236431605997495353221893310546875,
+            "max_speed": 3.140000000000000124344978758017532527446746826171875,
+            "lap_index": 22,
+            "split": 22,
+            "start_index": 8144,
+            "end_index": 8536,
+            "total_elevation_gain": 18.800000000000000710542735760100185871124267578125,
+            "average_cadence": 79.900000000000005684341886080801486968994140625,
+            "device_watts": true,
+            "average_watts": 289.69999999999998863131622783839702606201171875,
+            "average_heartrate": 158.5,
+            "max_heartrate": 165,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930614,
+            "resource_state": 2,
+            "name": "Lap 23",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 379,
+            "moving_time": 379,
+            "start_date": "2026-02-22T11:21:09Z",
+            "start_date_local": "2026-02-22T12:21:09Z",
+            "distance": 1000,
+            "average_speed": 2.640000000000000124344978758017532527446746826171875,
+            "max_speed": 2.95999999999999996447286321199499070644378662109375,
+            "lap_index": 23,
+            "split": 23,
+            "start_index": 8537,
+            "end_index": 8915,
+            "total_elevation_gain": 0.200000000000000011102230246251565404236316680908203125,
+            "average_cadence": 80,
+            "device_watts": true,
+            "average_watts": 263.30000000000001136868377216160297393798828125,
+            "average_heartrate": 154.599999999999994315658113919198513031005859375,
+            "max_heartrate": 161,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930635,
+            "resource_state": 2,
+            "name": "Lap 24",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 384,
+            "moving_time": 384,
+            "start_date": "2026-02-22T11:27:28Z",
+            "start_date_local": "2026-02-22T12:27:28Z",
+            "distance": 1000,
+            "average_speed": 2.600000000000000088817841970012523233890533447265625,
+            "max_speed": 2.899999999999999911182158029987476766109466552734375,
+            "lap_index": 24,
+            "split": 24,
+            "start_index": 8916,
+            "end_index": 9299,
+            "total_elevation_gain": 0,
+            "average_cadence": 79.900000000000005684341886080801486968994140625,
+            "device_watts": true,
+            "average_watts": 254.900000000000005684341886080801486968994140625,
+            "average_heartrate": 154.5,
+            "max_heartrate": 157,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930659,
+            "resource_state": 2,
+            "name": "Lap 25",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 373,
+            "moving_time": 373,
+            "start_date": "2026-02-22T11:33:52Z",
+            "start_date_local": "2026-02-22T12:33:52Z",
+            "distance": 1000,
+            "average_speed": 2.680000000000000159872115546022541821002960205078125,
+            "max_speed": 3.04000000000000003552713678800500929355621337890625,
+            "lap_index": 25,
+            "split": 25,
+            "start_index": 9300,
+            "end_index": 9673,
+            "total_elevation_gain": 0,
+            "average_cadence": 80.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 262.69999999999998863131622783839702606201171875,
+            "average_heartrate": 153.69999999999998863131622783839702606201171875,
+            "max_heartrate": 159,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930682,
+            "resource_state": 2,
+            "name": "Lap 26",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 378,
+            "moving_time": 378,
+            "start_date": "2026-02-22T11:40:06Z",
+            "start_date_local": "2026-02-22T12:40:06Z",
+            "distance": 1000,
+            "average_speed": 2.649999999999999911182158029987476766109466552734375,
+            "max_speed": 3.020000000000000017763568394002504646778106689453125,
+            "lap_index": 26,
+            "split": 26,
+            "start_index": 9674,
+            "end_index": 10051,
+            "total_elevation_gain": 6.20000000000000017763568394002504646778106689453125,
+            "average_cadence": 80.7000000000000028421709430404007434844970703125,
+            "device_watts": true,
+            "average_watts": 267.3999999999999772626324556767940521240234375,
+            "average_heartrate": 156.30000000000001136868377216160297393798828125,
+            "max_heartrate": 165,
+            "pace_zone": 3
+        },
+        {
+            "id": 62470930708,
+            "resource_state": 2,
+            "name": "Lap 27",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 402,
+            "moving_time": 402,
+            "start_date": "2026-02-22T11:46:24Z",
+            "start_date_local": "2026-02-22T12:46:24Z",
+            "distance": 1000,
+            "average_speed": 2.4900000000000002131628207280300557613372802734375,
+            "max_speed": 3.160000000000000142108547152020037174224853515625,
+            "lap_index": 27,
+            "split": 27,
+            "start_index": 10052,
+            "end_index": 10453,
+            "total_elevation_gain": 12.800000000000000710542735760100185871124267578125,
+            "average_cadence": 80.099999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 261.1000000000000227373675443232059478759765625,
+            "average_heartrate": 157.900000000000005684341886080801486968994140625,
+            "max_heartrate": 164,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930736,
+            "resource_state": 2,
+            "name": "Lap 28",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 396,
+            "moving_time": 396,
+            "start_date": "2026-02-22T11:53:06Z",
+            "start_date_local": "2026-02-22T12:53:06Z",
+            "distance": 1000,
+            "average_speed": 2.529999999999999804600747665972448885440826416015625,
+            "max_speed": 4.17999999999999971578290569595992565155029296875,
+            "lap_index": 28,
+            "split": 28,
+            "start_index": 10454,
+            "end_index": 10850,
+            "total_elevation_gain": 11.800000000000000710542735760100185871124267578125,
+            "average_cadence": 79.599999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 256.8999999999999772626324556767940521240234375,
+            "average_heartrate": 156.30000000000001136868377216160297393798828125,
+            "max_heartrate": 167,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930767,
+            "resource_state": 2,
+            "name": "Lap 29",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 394,
+            "moving_time": 394,
+            "start_date": "2026-02-22T11:59:43Z",
+            "start_date_local": "2026-02-22T12:59:43Z",
+            "distance": 1000,
+            "average_speed": 2.54000000000000003552713678800500929355621337890625,
+            "max_speed": 3.020000000000000017763568394002504646778106689453125,
+            "lap_index": 29,
+            "split": 29,
+            "start_index": 10851,
+            "end_index": 11244,
+            "total_elevation_gain": 0,
+            "average_cadence": 80.599999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 255.599999999999994315658113919198513031005859375,
+            "average_heartrate": 158.099999999999994315658113919198513031005859375,
+            "max_heartrate": 164,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930797,
+            "resource_state": 2,
+            "name": "Lap 30",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 387,
+            "moving_time": 387,
+            "start_date": "2026-02-22T12:06:17Z",
+            "start_date_local": "2026-02-22T13:06:17Z",
+            "distance": 1000,
+            "average_speed": 2.5800000000000000710542735760100185871124267578125,
+            "max_speed": 4.04000000000000003552713678800500929355621337890625,
+            "lap_index": 30,
+            "split": 30,
+            "start_index": 11245,
+            "end_index": 11631,
+            "total_elevation_gain": 4.5999999999999996447286321199499070644378662109375,
+            "average_cadence": 80.599999999999994315658113919198513031005859375,
+            "device_watts": true,
+            "average_watts": 263.8999999999999772626324556767940521240234375,
+            "average_heartrate": 160.30000000000001136868377216160297393798828125,
+            "max_heartrate": 171,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930828,
+            "resource_state": 2,
+            "name": "Lap 31",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 397,
+            "moving_time": 397,
+            "start_date": "2026-02-22T12:12:44Z",
+            "start_date_local": "2026-02-22T13:12:44Z",
+            "distance": 1000,
+            "average_speed": 2.520000000000000017763568394002504646778106689453125,
+            "max_speed": 3.060000000000000053290705182007513940334320068359375,
+            "lap_index": 31,
+            "split": 31,
+            "start_index": 11632,
+            "end_index": 12029,
+            "total_elevation_gain": 3.399999999999999911182158029987476766109466552734375,
+            "average_cadence": 80.400000000000005684341886080801486968994140625,
+            "device_watts": true,
+            "average_watts": 257.5,
+            "average_heartrate": 159.599999999999994315658113919198513031005859375,
+            "max_heartrate": 168,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930854,
+            "resource_state": 2,
+            "name": "Lap 32",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 391,
+            "moving_time": 391,
+            "start_date": "2026-02-22T12:19:22Z",
+            "start_date_local": "2026-02-22T13:19:22Z",
+            "distance": 999.990000000000009094947017729282379150390625,
+            "average_speed": 2.560000000000000053290705182007513940334320068359375,
+            "max_speed": 3.220000000000000195399252334027551114559173583984375,
+            "lap_index": 32,
+            "split": 32,
+            "start_index": 12030,
+            "end_index": 12421,
+            "total_elevation_gain": 2.79999999999999982236431605997495353221893310546875,
+            "average_cadence": 79.7999999999999971578290569595992565155029296875,
+            "device_watts": true,
+            "average_watts": 259.6000000000000227373675443232059478759765625,
+            "average_heartrate": 159.900000000000005684341886080801486968994140625,
+            "max_heartrate": 165,
+            "pace_zone": 2
+        },
+        {
+            "id": 62470930872,
+            "resource_state": 2,
+            "name": "Lap 33",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 7,
+            "moving_time": 7,
+            "start_date": "2026-02-22T12:25:54Z",
+            "start_date_local": "2026-02-22T13:25:54Z",
+            "distance": 19.129999999999999005240169935859739780426025390625,
+            "average_speed": 2.729999999999999982236431605997495353221893310546875,
+            "max_speed": 2.720000000000000195399252334027551114559173583984375,
+            "lap_index": 33,
+            "split": 33,
+            "start_index": 12422,
+            "end_index": 12427,
+            "total_elevation_gain": 0,
+            "average_cadence": 81,
+            "device_watts": true,
+            "average_watts": 275.3999999999999772626324556767940521240234375,
+            "average_heartrate": 164,
+            "max_heartrate": 165,
+            "pace_zone": 3
+        }
+    ],
+    "best_efforts": [
+        {
+            "id": 73523052219,
+            "resource_state": 2,
+            "name": "400m",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 137,
+            "moving_time": 137,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 400,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 10559,
+            "end_index": 10696
+        },
+        {
+            "id": 73523052220,
+            "resource_state": 2,
+            "name": "1\/2 mile",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 284,
+            "moving_time": 284,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 805,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 3165,
+            "end_index": 3449
+        },
+        {
+            "id": 73523052221,
+            "resource_state": 2,
+            "name": "1K",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 354,
+            "moving_time": 354,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 1000,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 3120,
+            "end_index": 3474
+        },
+        {
+            "id": 73523052210,
+            "resource_state": 2,
+            "name": "1 mile",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 578,
+            "moving_time": 578,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 1609,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 2929,
+            "end_index": 3507
+        },
+        {
+            "id": 73523052211,
+            "resource_state": 2,
+            "name": "2 mile",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 1193,
+            "moving_time": 1193,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 3219,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 2929,
+            "end_index": 4122
+        },
+        {
+            "id": 73523052212,
+            "resource_state": 2,
+            "name": "5K",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 1880,
+            "moving_time": 1880,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 5000,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 2929,
+            "end_index": 4809
+        },
+        {
+            "id": 73523052213,
+            "resource_state": 2,
+            "name": "10K",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 3776,
+            "moving_time": 3776,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 10000,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 2203,
+            "end_index": 5979
+        },
+        {
+            "id": 73523052214,
+            "resource_state": 2,
+            "name": "15K",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 5711,
+            "moving_time": 5711,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 15000,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 2929,
+            "end_index": 8640
+        },
+        {
+            "id": 73523052215,
+            "resource_state": 2,
+            "name": "10 mile",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 6126,
+            "moving_time": 6126,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 16090,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 2929,
+            "end_index": 9055
+        },
+        {
+            "id": 73523052216,
+            "resource_state": 2,
+            "name": "20K",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 7621,
+            "moving_time": 7621,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 20000,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 2527,
+            "end_index": 10148
+        },
+        {
+            "id": 73523052217,
+            "resource_state": 2,
+            "name": "Half-Marathon",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 8042,
+            "moving_time": 8042,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 21097,
+            "pr_rank": null,
+            "achievements": [],
+            "start_index": 2184,
+            "end_index": 10226
+        },
+        {
+            "id": 73523052218,
+            "resource_state": 2,
+            "name": "30K",
+            "activity": {
+                "id": 17482945037,
+                "visibility": "everyone",
+                "resource_state": 1
+            },
+            "athlete": {
+                "id": 36809051,
+                "resource_state": 1
+            },
+            "elapsed_time": 11630,
+            "moving_time": 11630,
+            "start_date": "2026-02-22T08:58:52Z",
+            "start_date_local": "2026-02-22T09:58:52Z",
+            "distance": 30000,
+            "pr_rank": 1,
+            "achievements": [
+                {
+                    "type_id": 3,
+                    "type": "pr",
+                    "rank": 1
+                }
+            ],
+            "start_index": 1,
+            "end_index": 11631
+        }
+    ],
+    "gear": {
+        "id": "g27900926",
+        "primary": false,
+        "name": "Nike Vomero plus",
+        "nickname": null,
+        "resource_state": 2,
+        "retired": false,
+        "distance": 249542,
+        "converted_distance": 249.5
+    },
+    "photos": {
+        "primary": {
+            "unique_id": "0A67B928-FD30-48D8-AF56-15710F5940C3",
+            "urls": {
+                "600": "https:\/\/dgtzuqphqg23d.cloudfront.net\/OyvjBn-USmx319zJiO1LUlbzM8gF1_zs4Fi62zCS15o-576x768.jpg",
+                "100": "https:\/\/dgtzuqphqg23d.cloudfront.net\/OyvjBn-USmx319zJiO1LUlbzM8gF1_zs4Fi62zCS15o-96x128.jpg"
+            },
+            "source": 1,
+            "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 7
+    },
+    "stats_visibility": [
+        {
+            "type": "heart_rate",
+            "visibility": "everyone"
+        },
+        {
+            "type": "pace",
+            "visibility": "everyone"
+        },
+        {
+            "type": "power",
+            "visibility": "everyone"
+        },
+        {
+            "type": "speed",
+            "visibility": "everyone"
+        },
+        {
+            "type": "calories",
+            "visibility": "everyone"
+        }
+    ],
+    "hide_from_home": false,
+    "embed_token": "a6ff49bc7a9b305f383f47b10f3a0fafd91acd60",
+    "private_note": "",
+    "similar_activities": {
+        "effort_count": 1,
+        "average_speed": 2.58272162619988687737304644542746245861053466796875,
+        "min_average_speed": 2.58272162619988687737304644542746245861053466796875,
+        "mid_average_speed": 2.58272162619988687737304644542746245861053466796875,
+        "max_average_speed": 2.58272162619988687737304644542746245861053466796875,
+        "pr_rank": null,
+        "frequency_milestone": null,
+        "trend": {
+            "speeds": [
+                2.58272162619988687737304644542746245861053466796875
+            ],
+            "current_activity_index": 0,
+            "min_speed": 2.58272162619988687737304644542746245861053466796875,
+            "mid_speed": 2.58272162619988687737304644542746245861053466796875,
+            "max_speed": 2.58272162619988687737304644542746245861053466796875,
+            "direction": 0
+        },
+        "resource_state": 2
+    },
+    "available_zones": [
+        "heartrate",
+        "pace",
+        "power"
+    ]
+}

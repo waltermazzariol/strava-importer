@@ -3,7 +3,7 @@
  * Plugin Name: Strava Activity Importer
  * Plugin URI: https://waltermazzariol.com
  * Description: Import your Strava activities as WordPress posts on demand. Includes activity stats, photos, maps, and descriptions.
- * Version: 1.1.0
+ * Version: 1.3.0
  * Author: Walter Mazzariol
  * Author URI: https://waltermazzariol.com
  * License: GPL v2 or later
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'STRAVA_IMPORTER_VERSION', '1.1.0' );
+define( 'STRAVA_IMPORTER_VERSION', '1.3.0' );
 define( 'STRAVA_IMPORTER_DIR', plugin_dir_path( __FILE__ ) );
 define( 'STRAVA_IMPORTER_URL', plugin_dir_url( __FILE__ ) );
 
@@ -40,6 +40,10 @@ class Strava_Activity_Importer {
         add_action( 'wp_ajax_strava_import_activity', array( $this, 'ajax_import_activity' ) );
         add_action( 'wp_ajax_strava_reimport_activity', array( $this, 'ajax_reimport_activity' ) );
         add_action( 'wp_ajax_strava_disconnect', array( $this, 'ajax_disconnect' ) );
+        add_action( 'wp_ajax_strava_import_fixture', array( $this, 'ajax_import_fixture' ) );
+
+        // Frontend assets for Strava posts
+        add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_frontend_assets' ) );
 
         // OAuth callback
         add_action( 'admin_init', array( $this, 'handle_oauth_callback' ) );
@@ -119,6 +123,20 @@ class Strava_Activity_Importer {
             'ajaxUrl' => admin_url( 'admin-ajax.php' ),
             'nonce'   => wp_create_nonce( 'strava_importer_nonce' ),
         ) );
+    }
+
+    /**
+     * Enqueue frontend carousel + lightbox assets on Strava activity posts
+     */
+    public function enqueue_frontend_assets() {
+        if ( ! is_singular( 'post' ) ) {
+            return;
+        }
+        if ( ! get_post_meta( get_queried_object_id(), '_strava_activity_id', true ) ) {
+            return;
+        }
+        wp_enqueue_style( 'strava-carousel', STRAVA_IMPORTER_URL . 'assets/strava-carousel.css', array(), STRAVA_IMPORTER_VERSION );
+        wp_enqueue_script( 'strava-carousel', STRAVA_IMPORTER_URL . 'assets/strava-carousel.js', array(), STRAVA_IMPORTER_VERSION, true );
     }
 
     /**
@@ -416,6 +434,19 @@ class Strava_Activity_Importer {
             }
         }
 
+        return $this->run_import( $activity, $photos, $post_id );
+    }
+
+    /**
+     * Core import logic: create/update a WP post from activity + media data.
+     * Used by both the live Strava import and the fixture-based dev import.
+     *
+     * @param array $activity Strava activity data array.
+     * @param array $photos   Array of Strava media objects (photos and/or videos).
+     * @param int   $post_id  Existing WP post ID to update, or 0 for a new post.
+     * @return array|WP_Error Result data on success, WP_Error on failure.
+     */
+    private function run_import( $activity, $photos, $post_id = 0 ) {
         // Create or identify the post first (we need a post_id to attach media to)
         if ( $post_id > 0 ) {
             // Update existing post title; content will be set later after photos download
@@ -452,19 +483,50 @@ class Strava_Activity_Importer {
         // Clean up old Strava-downloaded attachments on reimport
         $this->cleanup_strava_attachments( $post_id );
 
-        // Download photos to the media library
-        $downloaded    = $this->download_all_photos( $photos, $post_id, $activity['name'] );
-        $photo_urls    = wp_list_pluck( $downloaded, 'url' );
+        // Build carousel order preserving original Strava sequence
+        $photo_items    = array();
+        $carousel_order = array();
 
-        // Set first downloaded photo as featured image
-        if ( ! empty( $downloaded ) ) {
-            set_post_thumbnail( $post_id, $downloaded[0]['attachment_id'] );
+        foreach ( $photos as $media_item ) {
+            if ( $this->is_video_media( $media_item ) ) {
+                $url = ! empty( $media_item['video_url'] ) ? $media_item['video_url'] : '';
+                if ( $url ) {
+                    $carousel_order[] = array( 'type' => 'video', 'src' => $url, 'thumb' => $this->get_photo_url( $media_item ) );
+                }
+            } else {
+                $carousel_order[] = array( 'type' => 'photo', 'photo_idx' => count( $photo_items ) );
+                $photo_items[]    = $media_item;
+            }
+        }
+
+        $downloaded = $this->download_all_photos( $photo_items, $post_id, $activity['name'] );
+
+        // Build final ordered carousel list (photos replaced with local URLs)
+        $carousel_items = array();
+        foreach ( $carousel_order as $entry ) {
+            if ( 'video' === $entry['type'] ) {
+                $carousel_items[] = $entry;
+            } else {
+                $idx = $entry['photo_idx'];
+                if ( isset( $downloaded[ $idx ] ) ) {
+                    $carousel_items[] = array( 'type' => 'photo', 'src' => $downloaded[ $idx ]['url'] );
+                }
+            }
+        }
+
+        // Featured image = first downloaded photo
+        $first_photo = null;
+        foreach ( $downloaded as $d ) {
+            $first_photo = $d;
+            break;
+        }
+        if ( $first_photo ) {
+            set_post_thumbnail( $post_id, $first_photo['attachment_id'] );
         } else {
             delete_post_thumbnail( $post_id );
         }
 
-        // Build final post content with local image URLs
-        $content = $this->build_post_content( $activity, $photo_urls );
+        $content = $this->build_post_content( $activity, $carousel_items );
 
         wp_update_post( array(
             'ID'           => $post_id,
@@ -495,6 +557,7 @@ class Strava_Activity_Importer {
         wp_set_post_categories( $post_id, $categories );
 
         // Save Strava metadata
+        $activity_id = (string) $activity['id'];
         update_post_meta( $post_id, '_strava_activity_id', $activity_id );
         update_post_meta( $post_id, '_strava_activity_url', 'https://www.strava.com/activities/' . $activity_id );
         update_post_meta( $post_id, '_strava_sport_type', $sport_type );
@@ -524,6 +587,55 @@ class Strava_Activity_Importer {
             'view_url' => get_permalink( $post_id ),
             'title'    => $activity['name'],
         );
+    }
+
+    /**
+     * DEV ONLY: AJAX handler that imports using local fixture JSON files.
+     * Requires fixture-activity.json (and optionally fixture-photos.json) in the plugin dir.
+     */
+    public function ajax_import_fixture() {
+        check_ajax_referer( 'strava_importer_nonce', 'nonce' );
+
+        if ( ! current_user_can( 'manage_options' ) ) {
+            wp_send_json_error( __( 'Permission denied.', 'strava-importer' ) );
+        }
+
+        $activity_file = STRAVA_IMPORTER_DIR . 'fixture-activity.json';
+        $photos_file   = STRAVA_IMPORTER_DIR . 'fixture-photos.json';
+
+        if ( ! file_exists( $activity_file ) ) {
+            wp_send_json_error( 'fixture-activity.json not found in plugin directory.' );
+        }
+
+        $activity = json_decode( file_get_contents( $activity_file ), true );
+        if ( empty( $activity ) || empty( $activity['id'] ) ) {
+            wp_send_json_error( 'fixture-activity.json is empty or invalid.' );
+        }
+
+        $photos = array();
+        if ( file_exists( $photos_file ) ) {
+            $photos = json_decode( file_get_contents( $photos_file ), true ) ?: array();
+        }
+
+        // Reuse existing post if this activity was already imported
+        $post_id  = 0;
+        $existing = get_posts( array(
+            'meta_key'    => '_strava_activity_id',
+            'meta_value'  => (string) $activity['id'],
+            'post_type'   => 'post',
+            'numberposts' => 1,
+        ) );
+        if ( ! empty( $existing ) ) {
+            $post_id = $existing[0]->ID;
+        }
+
+        $result = $this->run_import( $activity, $photos, $post_id );
+
+        if ( is_wp_error( $result ) ) {
+            wp_send_json_error( $result->get_error_message() );
+        }
+
+        wp_send_json_success( $result );
     }
 
     /**
@@ -566,6 +678,26 @@ class Strava_Activity_Importer {
             return $photo['url'];
         }
         return '';
+    }
+
+    /**
+     * Determine whether a Strava media item is a video.
+     *
+     * Strava media_type: 1 = photo, 2 = video.
+     *
+     * @param array $photo Strava media object.
+     * @return bool True if the item is a video.
+     */
+    private function is_video_media( $photo ) {
+        // Strava API returns "type": 1 = photo, 2 = video
+        if ( isset( $photo['type'] ) && 2 === (int) $photo['type'] ) {
+            return true;
+        }
+        // Fallback: presence of a video_url field
+        if ( ! empty( $photo['video_url'] ) ) {
+            return true;
+        }
+        return false;
     }
 
     /**
@@ -675,12 +807,12 @@ class Strava_Activity_Importer {
     }
 
     /**
-     * Build the HTML post content from activity data and local photo URLs.
+     * Build the HTML post content from activity data and carousel items.
      *
-     * @param array $activity   Strava activity data.
-     * @param array $photo_urls Array of local image URL strings.
+     * @param array $activity       Strava activity data.
+     * @param array $carousel_items Array of carousel entries: { type, src } for photos; { type, src, thumb } for videos.
      */
-    private function build_post_content( $activity, $photo_urls = array() ) {
+    private function build_post_content( $activity, $carousel_items = array() ) {
         $blocks = array();
 
         // Description
@@ -779,23 +911,27 @@ class Strava_Activity_Importer {
         $blocks[] = '<!-- /wp:group -->';
         $blocks[] = '';
 
-        // Photos gallery (all photos)
-        if ( ! empty( $photo_urls ) ) {
-            $blocks[] = '<!-- wp:heading {"level":3} -->';
-            $blocks[] = '<h3>📸 Photos</h3>';
-            $blocks[] = '<!-- /wp:heading -->';
-            $blocks[] = '';
-            $blocks[] = '<!-- wp:gallery {"columns":2,"linkTo":"none","className":"strava-photos"} -->';
-            $blocks[] = '<figure class="wp-block-gallery has-nested-images columns-2 strava-photos">';
-
-            foreach ( $photo_urls as $url ) {
-                $blocks[] = '<!-- wp:image -->';
-                $blocks[] = '<figure class="wp-block-image"><img src="' . esc_url( $url ) . '" alt="Activity photo"/></figure>';
-                $blocks[] = '<!-- /wp:image -->';
+        // Media strip (horizontal scroll)
+        if ( ! empty( $carousel_items ) ) {
+            $items_html = '';
+            foreach ( $carousel_items as $item ) {
+                if ( 'video' === $item['type'] ) {
+                    $thumb       = esc_url( $item['thumb'] );
+                    $src         = esc_url( $item['src'] );
+                    $items_html .= '<div class="strava-strip-item strava-strip-video" data-type="video" data-src="' . $src . '">';
+                    $items_html .= '<img src="' . $thumb . '" alt="Video thumbnail">';
+                    $items_html .= '<div class="strava-play-overlay"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>';
+                    $items_html .= '</div>';
+                } else {
+                    $src         = esc_url( $item['src'] );
+                    $items_html .= '<div class="strava-strip-item">';
+                    $items_html .= '<img src="' . $src . '" alt="Activity photo">';
+                    $items_html .= '</div>';
+                }
             }
-
-            $blocks[] = '</figure>';
-            $blocks[] = '<!-- /wp:gallery -->';
+            $blocks[] = '<!-- wp:html -->';
+            $blocks[] = '<div class="strava-media-strip">' . $items_html . '</div>';
+            $blocks[] = '<!-- /wp:html -->';
             $blocks[] = '';
         }
 

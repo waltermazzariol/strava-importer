@@ -54,3 +54,4 @@ WordPress plugin that imports Strava activities as WordPress posts via Strava AP
 - JS: jQuery-based, ES5 (no transpilation), 500ms delay between sequential imports
 - Photos downloaded to WP media library via `download_url()` + `media_handle_sideload()`
 - When making changes, please update the CHANGELOG.md file under a 'Unreleased' section, following Keep a Changelog formatting.
+- Upgrade the version of the plugin

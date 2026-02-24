@@ -345,6 +345,47 @@
     });
 
     // =====================
+    // Dev: Import from fixture
+    // =====================
+    $('#strava-import-fixture').on('click', function () {
+        var $btn = $(this);
+        var $spinner = $('#fixture-spinner');
+        var $result = $('#fixture-result');
+
+        $btn.prop('disabled', true);
+        $spinner.addClass('is-active');
+        $result.empty();
+
+        $.ajax({
+            url: stravaImporter.ajaxUrl,
+            type: 'POST',
+            data: {
+                action: 'strava_import_fixture',
+                nonce: stravaImporter.nonce,
+            },
+            success: function (response) {
+                $btn.prop('disabled', false);
+                $spinner.removeClass('is-active');
+                if (response.success) {
+                    var d = response.data;
+                    $result.html(
+                        '<div class="strava-log-success">✅ <strong>' + escHtml(d.title) + '</strong> → ' +
+                        '<a href="' + escHtml(d.edit_url) + '" target="_blank">Edit Post</a> | ' +
+                        '<a href="' + escHtml(d.view_url) + '" target="_blank">View Post</a></div>'
+                    );
+                } else {
+                    $result.html('<div class="strava-log-error">❌ ' + escHtml(response.data) + '</div>');
+                }
+            },
+            error: function () {
+                $btn.prop('disabled', false);
+                $spinner.removeClass('is-active');
+                $result.html('<div class="strava-log-error">❌ Network error.</div>');
+            },
+        });
+    });
+
+    // =====================
     // Disconnect
     // =====================
     $('#strava-disconnect').on('click', function () {
